@@ -1,0 +1,15 @@
+#pragma once
+#include "Event.h"
+#include "Render2DEvent.h"
+#include "pure_events.h"
+
+#include "KeyDownEvent.h"
+#include "KeyUpEvent.h"
+#include "MouseButtonDownEvent.h"
+#include "MouseButtonUpEvent.h"
+#include "MouseMoveEvent.h"
+#include "ResizeEvent.h"
+#include "MoveEvent.h"
+#include "Render2DEvent.h"
+#include "MouseScrollEvent.h"
+#include "PositionChangedEvent.h"
