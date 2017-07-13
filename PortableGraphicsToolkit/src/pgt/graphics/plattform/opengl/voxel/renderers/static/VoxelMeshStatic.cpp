@@ -61,7 +61,7 @@ namespace pgt {
         glBindBuffer(GL_ARRAY_BUFFER, _vbo);
         _vertex_count = _vertices.size();
         if (_vertex_count > 0) {
-            glBufferData(GL_ARRAY_BUFFER, _vertex_count * sizeof(VoxelVertex),
+            glBufferDaclionta(GL_ARRAY_BUFFER, _vertex_count * sizeof(VoxelVertex),
                          &_vertices[0], GL_STATIC_DRAW);
         }
         else {

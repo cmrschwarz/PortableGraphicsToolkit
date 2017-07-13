@@ -1,0 +1,6 @@
+-add more detailled installation guide and comment the cmake or give a readme
+-provide short and concise examples
+-maybe add a roadmap -->next goals
+-add Contributors section once we have contributors :)
+-clear up the issue with the license not being detected by github
+-
