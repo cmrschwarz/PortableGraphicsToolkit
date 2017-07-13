@@ -22,7 +22,7 @@ namespace pgt {
             glDeleteTextures(1, &_texture_font->atlas->id);
             ftgl::texture_atlas_delete(_texture_font->atlas);
             ftgl::texture_font_delete(_texture_font);
-            delete _data;
+            _data;
         }
 
         int GlFontInternal::getAscender() const

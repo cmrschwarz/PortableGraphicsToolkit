@@ -1,7 +1,4 @@
 cmake_minimum_required(VERSION 3.7)
-#Applying Configuration
-SET(CMGR_CONFIG ${PGT_CONFIG})
-add_subdirectory("../CMakeConfigMgr" "${CMAKE_CURRENT_BINARY_DIR}/config" EXCLUDE_FROM_ALL)
 
 #project(VoxWorld)
 add_subdirectory(../PortableGraphicsToolkit "${CMAKE_BINARY_DIR}/PortableGraphicsToolkit/")

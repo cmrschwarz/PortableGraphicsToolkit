@@ -1,5 +1,5 @@
 #pragma once
-#include <cstddef>
+#include <pgt/utils/std_types.h>
 namespace pgt {
     class IStreamReader {
       public:
@@ -9,6 +9,7 @@ namespace pgt {
         virtual void setPosition(size_t pos) = 0;
         virtual size_t getStreamSize() const = 0;
         virtual size_t readToEnd(void** buffer) = 0;
+        virtual void freeReadToEndBuffer(void* buffer)const =0;
         virtual void close() = 0;
         IStreamReader(){};
         ~IStreamReader(){};

@@ -28,7 +28,7 @@ namespace pgt {
         }
 
 
-        size_t read(void* buffer, size_t size) override
+        size_t read(void * buffer, size_t size) override
         {
             size_t fsize_left = _end - _position;
             if (fsize_left > size) {
@@ -56,14 +56,16 @@ namespace pgt {
         }
 
 
-        size_t readToEnd(void** buffer) override
+        size_t readToEnd(void ** buffer) override
         {
             size_t fsize_left = _end - _position;
-            *buffer = malloc(fsize_left);
+            *buffer = new uint8_t[fsize_left];
             return read(*buffer, fsize_left);
         }
 
-
+        void freeReadToEndBuffer(void* buffer) const override {
+            delete[] (uint8_t*)buffer;
+        }
         void setPosition(size_t pos) override
         {
             _position = _data + pos;

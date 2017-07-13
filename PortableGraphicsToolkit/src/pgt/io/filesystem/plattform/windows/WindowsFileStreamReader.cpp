@@ -72,9 +72,8 @@ namespace pgt {
             size_t last_buffer_size =
                 buffer_size - (_buffers.size() - 1) * BSIZE;
             typedef uint8_t byte_t;
-            byte_t** b_ptr = reinterpret_cast<byte_t**>(buffer);
-            *b_ptr =
-                new byte_t[buffer_size];  // new because user has to free this
+            uint8_t** b_ptr = reinterpret_cast<uint8_t**>(buffer);
+            *b_ptr = new byte_t[buffer_size];
             // memcpy protects against 0 case
             byte_t* buff_pos = *b_ptr;
             for (auto it = _buffers.begin(); it != _buffers.end() - 1; ++it) {
@@ -87,7 +86,9 @@ namespace pgt {
             _streampos += buffer_size;
             return buffer_size;
         }
-
+        void WindowsFileStreamReader::freeReadToEndBuffer(void* buffer)const {
+            delete[] (uint8_t*)buffer;
+        }
         void WindowsFileStreamReader::setPosition(size_t pos)
         {
             _streampos = pos;

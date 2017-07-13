@@ -22,6 +22,7 @@ namespace pgt {
             virtual size_t getPosition() const override;
             virtual size_t getStreamSize() const override;
             virtual size_t readToEnd(void** buffer) override;
+            virtual void freeReadToEndBuffer(void* buffer)const override;
             virtual void setPosition(size_t pos) override;
             virtual void close() override;
         };

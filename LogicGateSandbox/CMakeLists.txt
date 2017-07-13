@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.7)
 #project(VoxWorld)
-add_subdirectory(../PGTEngine_core "${CMAKE_BINARY_DIR}/PGTEngine_core/")
 
 MESSAGE(STATUS "Configuring Project LogicGateSandbox" )
 set(LGS_SOURCE_FILES

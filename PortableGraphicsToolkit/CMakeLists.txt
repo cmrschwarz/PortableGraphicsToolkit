@@ -1,11 +1,6 @@
 cmake_minimum_required(VERSION 3.7)
 #project(PGTEngine_core)
 
-#Configurable Variables:
-SET(PGT_CONFIG "Debug32Static" CACHE STRING "PGT Configuration. Examine CMakeConfigMgr to see all options")
-#Applying Configuration
-SET(CMGR_CONFIG ${PGT_CONFIG})
-add_subdirectory("../CMakeConfigMgr" "${CMAKE_CURRENT_BINARY_DIR}/config" EXCLUDE_FROM_ALL)
 
 #Specifying Code Files 
 set(PGT_HEADER_FILES

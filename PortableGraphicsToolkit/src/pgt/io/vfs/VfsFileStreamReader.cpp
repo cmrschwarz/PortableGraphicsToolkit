@@ -39,6 +39,9 @@ namespace pgt {
     {
         return _fsr->readToEnd(buffer);
     }
+    void VfsFileStreamReader::freeReadToEndBuffer(void* buffer) const {
+        _fsr->freeReadToEndBuffer(buffer);
+    }
     void VfsFileStreamReader::setPosition(size_t pos)
     {
         _fsr->setPosition(pos);
