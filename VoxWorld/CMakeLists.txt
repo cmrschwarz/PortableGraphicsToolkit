@@ -28,10 +28,10 @@ add_executable(VoxWorld ${VoxWorld_SourceFiles} ${VoxWorld_HeaderFiles})
 add_dependencies(VoxWorld PGT)
 include_directories(${VoxWorld_IncludeDirectories})
 
-#find_library(pgtengine_core_lib_path NAMES "PGTngine_combined" PATHS "${CMAKE_BINARY_DIR}/PGTngine_core/Debug/" NO_DEFAULT_PATH )
+#find_library(pgtengine_core_lib_path NAMES "PGT" PATHS "${PGT_BUILD_DIR}" NO_DEFAULT_PATH)
 
 
-target_link_libraries(VoxWorld PGTngine_core)#${pgtengine_core_lib_path}
+target_link_libraries(VoxWorld PGT)
 
 target_compile_definitions(VoxWorld PUBLIC 
 _CRT_SECURE_NO_WARNINGS

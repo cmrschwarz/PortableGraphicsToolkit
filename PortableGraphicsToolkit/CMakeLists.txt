@@ -243,32 +243,14 @@ set(PGT_SOURCE_FILES
 	src/pgt/utils/std_types.h)
 
 
-
-
-#Handle Single/Multi Config Build Systems
-STRING(LENGTH ${CMAKE_CFG_INTDIR} STRLEN)
-IF(${STRLEN} LESS 2)
-	#Single Config
-	SET(PGT_MULTICONFIG FALSE)
-	SET(PGT_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/build")
-	SET(CMAKE_BUILD_TYPE "build")
-ELSE(${STRLEN} LESS 2)
-	#Multiple Configs
-	SET(PGT_MULTICONFIG TRUE)
-	SET(PGT_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/build/")
-	SET(CMAKE_BUILD_TYPE "build")
-	SET(CMAKE_CONFIGURATION_TYPES "build")
-ENDIF(${STRLEN} LESS 2)
-MESSAGE(STATUS "Creating Project PortableGraphicsEngine in Configuration ${PGT_CONFIG} in Directory ${CMAKE_CURRENT_BINARY_DIR}")
-
 #Create the Lib without Dependencies
 set(PGT_IncludeDirectories
 	src/
 	deps/include/
 )
-add_library(PGT_WITHOUT_LIBS STATIC ${PGT_SOURCE_FILES} ${PGT_HEADER_FILES})
-target_include_directories(PGT_WITHOUT_LIBS PRIVATE ${PGT_IncludeDirectories})
-target_compile_definitions(PGT_WITHOUT_LIBS PRIVATE
+add_library(PGT_SLIM STATIC ${PGT_SOURCE_FILES} ${PGT_HEADER_FILES})
+target_include_directories(PGT_SLIM PRIVATE ${PGT_IncludeDirectories})
+target_compile_definitions(PGT_SLIM PRIVATE
 	_CRT_SECURE_NO_WARNINGS
 	GLEW_STATIC
 	NOT_USING_FT_GL_NAMESPACE
@@ -301,28 +283,18 @@ ENDFOREACH(PGT_LIB_NAMES_ITER)
 
 #Combine Lib with Dependencies through external Command
 add_custom_command(
-	TARGET PGT_WITHOUT_LIBS POST_BUILD
-	COMMAND "lib.exe /OUT:${PGT_BUILD_DIR}/PGT.lib ${PGT_BUILD_DIR}/PGT_WITHOUT_LIBS.lib ${PGT_LIB_PATHS}"
+	TARGET PGT_SLIM POST_BUILD
+	COMMAND "lib.exe /OUT:${PGT_BUILD_DIR}/PGT.lib ${PGT_BUILD_DIR}/PGT_SLIM.lib ${PGT_LIB_PATHS}"
 	WORKING_DIRECTORY ${PGT_BUILD_DIR}
-	DEPENDS PGT_WITHOUT_LIBS
+	DEPENDS PGT_SLIM
 )
 
 
 
 #Import the Created Combined Lib
 add_library (PGT STATIC IMPORTED GLOBAL)
-add_dependencies(PGT PGT_WITHOUT_LIBS)
+add_dependencies(PGT PGT_SLIM)
 set_target_properties(PGT PROPERTIES
-  IMPORTED_LOCATION "${PGT_BUILD_DIR}/PGTngine_core.lib"
+  IMPORTED_LOCATION "${PGT_BUILD_DIR}/PGT_SLIM.lib"
 )
-
-
-
-#Restore previous Values
-SET(CMAKE_CONFIGURATION_TYPES ${PGT_FALLBACK_CMAKE_CONFIGURATION_TYPES})
-
-
-
-
-
 
