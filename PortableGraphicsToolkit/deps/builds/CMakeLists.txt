@@ -1,0 +1,8 @@
+SET(BUILD_UTILS 0)
+add_subdirectory(glew-2.0.0/build/cmake)
+add_subdirectory(SDL2-2.0.5)
+add_subdirectory(freetype-gl-master)
+add_subdirectory(freetype-2.8)
+IF(CMGR_COMP_MSVC)
+ELSE(CMGR_COMP_MINGW)
+ENDIF(CMGR_COMP_MSVC)

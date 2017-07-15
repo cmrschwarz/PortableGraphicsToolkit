@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.7)
 #project(PGTEngine_core)
 
-
 #Specifying Code Files 
 set(PGT_HEADER_FILES
 	src/pgt/game/3d/camera/Camera.h
@@ -248,53 +247,54 @@ set(PGT_IncludeDirectories
 	src/
 	deps/include/
 )
-add_library(PGT_SLIM STATIC ${PGT_SOURCE_FILES} ${PGT_HEADER_FILES})
-target_include_directories(PGT_SLIM PRIVATE ${PGT_IncludeDirectories})
-target_compile_definitions(PGT_SLIM PRIVATE
+add_library(pgt_slim STATIC ${PGT_SOURCE_FILES} ${PGT_HEADER_FILES})
+target_include_directories(pgt_slim PRIVATE ${PGT_IncludeDirectories})
+target_compile_definitions(pgt_slim PRIVATE
 	_CRT_SECURE_NO_WARNINGS
 	GLEW_STATIC
 	NOT_USING_FT_GL_NAMESPACE
 )
 
-
+#build dependencies
+add_subdirectory(deps/builds)
+add_dependencies(pgt_slim glew_s)
 
 #Searching for Libs that we depend on
-set (PGT_LIB_NAMES
-	FreeImage
-	FreeTypeGL
-	#glew32s
-	SDL2
-	SDL2main
-	opengl32
-)
-set (PGT_LIB_DIRS
-	"${CMAKE_CURRENT_SOURCE_DIR}/dependencies/lib/${PGT_CONFIG}/"
-)
-MESSAGE(STATUS "Searching for Libs in ${PGT_LIB_DIRS}")
-set (PGT_LIB_PATHS "")
-FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_NAMES})
-	find_library(PGT_LIB_PATH_TEMP NAMES ${PGT_LIB_NAMES_ITER} PATHS ${PGT_LIB_DIRS} NO_DEFAULT_PATH)
-	MESSAGE(STATUS "Found Lib \"${PGT_LIB_PATH_TEMP}\"")
-	STRING(APPEND PGT_LIB_PATHS "\"${PGT_LIB_PATH_TEMP}\" ")
-	unset(PGT_LIB_PATH_TEMP CACHE)
-ENDFOREACH(PGT_LIB_NAMES_ITER)
+	set (PGT_LIB_LIST
+		#FreeImage
+		${PGT_BUILD_DIR}/freetype-gl
+		${CMAKE_BINARY_DIR}/lib/build/libglew32
+		${PGT_BUILD_DIR}/SDL2
+		${PGT_BUILD_DIR}/SDL2main
+		${PGT_BUILD_DIR}/freetype
+	)
+	SET(PGT_LIB_COMMAND "")
+	FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
+	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${PGT_LIB_NAMES_ITER}${CMGR_LIB_EXT}\"  ")
+	ENDFOREACH(PGT_LIB_NAMES_ITER)
 
+#searching for opengl
+	INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
+	if(NOT OPENGL_FOUND)
+	    message(ERROR " OPENGL not found!")
+	endif(NOT OPENGL_FOUND)
+	message(STATUS "OPENGL PATH:  ${OPENGL_gl_LIBRARY}")
+	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${OPENGL_gl_LIBRARY}${CMGR_LIB_EXT}\"  ")
+	#Combine Lib with Dependencies through external Command
 
-
-#Combine Lib with Dependencies through external Command
 add_custom_command(
-	TARGET PGT_SLIM POST_BUILD
-	COMMAND "lib.exe /OUT:${PGT_BUILD_DIR}/PGT.lib ${PGT_BUILD_DIR}/PGT_SLIM.lib ${PGT_LIB_PATHS}"
+	TARGET pgt_slim POST_BUILD
 	WORKING_DIRECTORY ${PGT_BUILD_DIR}
-	DEPENDS PGT_SLIM
+	DEPENDS pgt_slim
+	COMMAND lib.exe /OUT:${PGT_BUILD_DIR}/pgt.lib ${PGT_BUILD_DIR}/pgt_slim.lib ${PGT_LIB_COMMAND}
 )
 
 
 
 #Import the Created Combined Lib
-add_library (PGT STATIC IMPORTED GLOBAL)
-add_dependencies(PGT PGT_SLIM)
-set_target_properties(PGT PROPERTIES
-  IMPORTED_LOCATION "${PGT_BUILD_DIR}/PGT_SLIM.lib"
+add_library (pgt STATIC IMPORTED GLOBAL)
+add_dependencies(pgt pgt_slim)
+set_target_properties(pgt PROPERTIES
+  IMPORTED_LOCATION "${PGT_BUILD_DIR}/pgt.lib"
 )
 

@@ -25,17 +25,6 @@ set(VoxWorld_IncludeDirectories
 )
 
 add_executable(VoxWorld ${VoxWorld_SourceFiles} ${VoxWorld_HeaderFiles})
-add_dependencies(VoxWorld PGT)
 include_directories(${VoxWorld_IncludeDirectories})
-
-#find_library(pgtengine_core_lib_path NAMES "PGT" PATHS "${PGT_BUILD_DIR}" NO_DEFAULT_PATH)
-
-
-target_link_libraries(VoxWorld PGT)
-
-target_compile_definitions(VoxWorld PUBLIC 
-_CRT_SECURE_NO_WARNINGS
-GLEW_STATIC
-NOT_USING_FT_GL_NAMESPACE
-)
-
+add_dependencies(VoxWorld pgt)
+target_link_libraries(VoxWorld pgt)
