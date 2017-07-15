@@ -258,7 +258,7 @@ target_compile_definitions(pgt_slim PRIVATE
 
 #build dependencies
 add_subdirectory(deps/builds)
-add_dependencies(pgt_slim glew_s)
+add_dependencies(pgt_slim glew_s FreeImage freetype freetype-gl SDL2main SDL2-static)
 
 #Searching for Libs that we depend on
 	set (PGT_LIB_LIST

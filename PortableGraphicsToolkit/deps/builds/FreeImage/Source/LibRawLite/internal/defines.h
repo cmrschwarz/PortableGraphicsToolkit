@@ -51,11 +51,13 @@ it under the terms of the one of three licenses as you choose:
 #ifdef __CYGWIN__
 #include <io.h>
 #endif
-#if defined(WIN32) && _MSC_VER < 1900
+#if defined(WIN32)
 #include <sys/utime.h>
 #include <winsock2.h>
 #pragma comment(lib, "ws2_32.lib")
+#if  _MSC_VER < 1900
 #define snprintf _snprintf
+#endif
 #define strcasecmp stricmp
 #define strncasecmp strnicmp
 #line 85 "dcraw/dcraw.c"
