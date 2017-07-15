@@ -51,7 +51,7 @@ it under the terms of the one of three licenses as you choose:
 #ifdef __CYGWIN__
 #include <io.h>
 #endif
-#ifdef WIN32
+#if defined(WIN32) && _MSC_VER < 1900
 #include <sys/utime.h>
 #include <winsock2.h>
 #pragma comment(lib, "ws2_32.lib")

@@ -1,0 +1,136 @@
+project(FreeImage)
+cmake_minimum_required (VERSION 2.8.7)
+SET(FI_SOURCE_FILES
+ ../FreeImage/BitmapAccess.cpp
+    ../FreeImage/ColorLookup.cpp
+    ../FreeImage/ConversionRGBA16.cpp
+    ../FreeImage/ConversionRGBAF.cpp
+    ../FreeImage/FreeImage.cpp
+    ../FreeImage/FreeImageIO.cpp
+    ../FreeImage/GetType.cpp
+    ../FreeImage/LFPQuantizer.cpp
+    ../FreeImage/MemoryIO.cpp
+    ../FreeImage/PixelAccess.cpp
+    ../FreeImage/NNQuantizer.cpp
+    ../FreeImage/WuQuantizer.cpp
+    ../FreeImage/Conversion.cpp
+    ../FreeImage/Conversion16_555.cpp
+    ../FreeImage/Conversion16_565.cpp
+    ../FreeImage/Conversion24.cpp
+    ../FreeImage/Conversion32.cpp
+    ../FreeImage/Conversion4.cpp
+    ../FreeImage/Conversion8.cpp
+    ../FreeImage/ConversionFloat.cpp
+    ../FreeImage/ConversionRGB16.cpp
+    ../FreeImage/ConversionRGBF.cpp
+    ../FreeImage/ConversionType.cpp
+    ../FreeImage/ConversionUINT16.cpp
+    ../FreeImage/Halftoning.cpp
+    ../FreeImage/tmoColorConvert.cpp
+    ../FreeImage/tmoDrago03.cpp
+    ../FreeImage/tmoFattal02.cpp
+    ../FreeImage/tmoReinhard05.cpp
+    ../FreeImage/ToneMapping.cpp
+    ../FreeImage/J2KHelper.cpp
+    ../FreeImage/MNGHelper.cpp
+    ../FreeImage/Plugin.cpp
+    ../FreeImage/PluginBMP.cpp
+    ../FreeImage/PluginCUT.cpp
+    ../FreeImage/PluginDDS.cpp
+    ../FreeImage/PluginEXR.cpp
+    ../FreeImage/PluginG3.cpp
+    ../FreeImage/PluginGIF.cpp
+    ../FreeImage/PluginHDR.cpp
+    ../FreeImage/PluginICO.cpp
+    ../FreeImage/PluginIFF.cpp
+    ../FreeImage/PluginJ2K.cpp
+    ../FreeImage/PluginJNG.cpp
+    ../FreeImage/PluginJP2.cpp
+    ../FreeImage/PluginJPEG.cpp
+    ../FreeImage/PluginJXR.cpp
+    ../FreeImage/PluginKOALA.cpp
+    ../FreeImage/PluginMNG.cpp
+    ../FreeImage/PluginPCD.cpp
+    ../FreeImage/PluginPCX.cpp
+    ../FreeImage/PluginPFM.cpp
+    ../FreeImage/PluginPICT.cpp
+    ../FreeImage/PluginPNG.cpp
+    ../FreeImage/PluginPNM.cpp
+    ../FreeImage/PluginPSD.cpp
+    ../FreeImage/PluginRAS.cpp
+    ../FreeImage/PluginRAW.cpp
+    ../FreeImage/PluginSGI.cpp
+    ../FreeImage/PluginTARGA.cpp
+    ../FreeImage/PluginTIFF.cpp
+    ../FreeImage/PluginWBMP.cpp
+    ../FreeImage/PluginWebP.cpp
+    ../FreeImage/PluginXBM.cpp
+    ../FreeImage/PluginXPM.cpp
+    ../FreeImage/PSDParser.cpp
+    ../FreeImage/TIFFLogLuv.cpp
+    ../DeprecationManager/Deprecated.cpp
+    ../DeprecationManager/DeprecationMgr.cpp
+    ../FreeImage/CacheFile.cpp
+    ../FreeImage/MultiPage.cpp
+    ../FreeImage/ZLibInterface.cpp
+    ../Metadata/Exif.cpp
+    ../Metadata/FIRational.cpp
+    ../Metadata/FreeImageTag.cpp
+    ../Metadata/IPTC.cpp
+    ../Metadata/TagConversion.cpp
+    ../Metadata/TagLib.cpp
+    ../Metadata/XTIFF.cpp
+    ../FreeImageToolkit/Background.cpp
+    ../FreeImageToolkit/BSplineRotate.cpp
+    ../FreeImageToolkit/Channels.cpp
+    ../FreeImageToolkit/ClassicRotate.cpp
+    ../FreeImageToolkit/Colors.cpp
+    ../FreeImageToolkit/CopyPaste.cpp
+    ../FreeImageToolkit/Display.cpp
+    ../FreeImageToolkit/Flip.cpp
+    ../FreeImageToolkit/JPEGTransform.cpp
+    ../FreeImageToolkit/MultigridPoissonSolver.cpp
+    ../FreeImageToolkit/Rescale.cpp
+    ../FreeImageToolkit/Resize.cpp
+)
+
+SET(FI_HEADER_FILES
+ 	../CacheFile.h
+    ../DeprecationManager/DeprecationMgr.h
+    ../MapIntrospector.h
+    ../Metadata/FIRational.h
+    ../FreeImage.h
+    ../FreeImageIO.h
+    ../Metadata/FreeImageTag.h
+    ../Plugin.h
+    ../FreeImage/PSDParser.h
+    ../Quantizers.h
+    ../ToneMapping.h
+    ../Utilities.h
+    ../FreeImageToolkit/Resize.h
+)
+SET(FI_INCLUDE_DIRS
+	../
+	../ZLib
+	../DeprecationManager
+	../OpenEXR
+	../OpenEXR/Half
+	../OpenEXR/Iex
+	../OpenEXR/IlmImf
+	../OpenEXR/Imath
+	../OpenEXR/IlmThread
+	../LibJXR/jxrgluelib
+	../LibJXR/image/sys
+)
+
+SET(FI_PP_DEFS
+	WIN32
+	OPJ_STATIC
+	FREEIMAGE_LIB
+	_CRT_SECURE_NO_DEPRECATE
+	LIBRAW_NODLL
+)
+
+add_library(FreeImage ${FI_SOURCE_FILES} ${FI_HEADER_FILES})
+target_compile_definitions(FreeImage PRIVATE ${FI_PP_DEFS})
+include_directories(${FI_INCLUDE_DIRS})

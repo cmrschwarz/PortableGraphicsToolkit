@@ -252,6 +252,7 @@ target_include_directories(pgt_slim PRIVATE ${PGT_IncludeDirectories})
 target_compile_definitions(pgt_slim PRIVATE
 	_CRT_SECURE_NO_WARNINGS
 	GLEW_STATIC
+	FREEIMAGE_LIB
 	NOT_USING_FT_GL_NAMESPACE
 )
 
@@ -267,6 +268,7 @@ add_dependencies(pgt_slim glew_s)
 		${PGT_BUILD_DIR}/SDL2
 		${PGT_BUILD_DIR}/SDL2main
 		${PGT_BUILD_DIR}/freetype
+		${PGT_BUILD_DIR}/FreeImage
 	)
 	SET(PGT_LIB_COMMAND "")
 	FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
