@@ -1,6 +1,6 @@
-prefix=C:/Program Files (x86)/PortableGraphicsToolkit
+prefix=C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/CMakeBuild/install
 exec_prefix=${prefix}
-libdir=C:/Program Files (x86)/PortableGraphicsToolkit/lib
+libdir=C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/CMakeBuild/install/lib
 includedir=${prefix}/include
 
 Name: glew

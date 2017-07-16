@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <pgt/graphics/plattform/interface/IRenderer2D.h>
 #include <pgt/io/logger/logger.h>
-
+#include <pgt/window/engine.h>
 namespace pgt {
     template <class IMAGE_TYPE = IImage>
     class SwRenderer : public IRenderer2D {
@@ -270,6 +270,7 @@ namespace pgt {
         const Font& getFont() const override
         {
            PGT_ASSERT(false,"Not Implemented");
+		   return pgt::engine::getApp().getRenderingContext().getFontManager().getDefaultFont();
         };
         vec4i getCurrentViewport() const override
         {

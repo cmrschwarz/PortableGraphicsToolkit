@@ -26,5 +26,5 @@ set(VoxWorld_IncludeDirectories
 
 add_executable(VoxWorld ${VoxWorld_SourceFiles} ${VoxWorld_HeaderFiles})
 include_directories(${VoxWorld_IncludeDirectories})
-add_dependencies(VoxWorld pgt)
-target_link_libraries(VoxWorld pgt)
+add_dependencies(VoxWorld pgt_slim)
+target_link_libraries(VoxWorld "${PGT_BUILD_DIR}/pgt${PGT_LIB_EXT}")

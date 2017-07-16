@@ -261,42 +261,33 @@ add_subdirectory(deps/builds)
 add_dependencies(pgt_slim glew_s FreeImage freetype freetype-gl SDL2main SDL2-static)
 
 #Searching for Libs that we depend on
+
 	set (PGT_LIB_LIST
-		#FreeImage
-		${PGT_BUILD_DIR}/freetype-gl
-		${CMAKE_BINARY_DIR}/lib/build/libglew32
-		${PGT_BUILD_DIR}/SDL2
-		${PGT_BUILD_DIR}/SDL2main
-		${PGT_BUILD_DIR}/freetype
-		${PGT_BUILD_DIR}/FreeImage
+		"${PGT_BUILD_DIR}/freetype-gl"
+		"${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>"
+		"${PGT_BUILD_DIR}/SDL2"
+		"${PGT_BUILD_DIR}/SDL2main"
+		"${PGT_BUILD_DIR}/freetype$<$<CONFIG:Debug>:d>"
+		"${PGT_BUILD_DIR}/FreeImage"
 	)
 	SET(PGT_LIB_COMMAND "")
 	FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
-	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${PGT_LIB_NAMES_ITER}${CMGR_LIB_EXT}\"  ")
+		SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${PGT_LIB_NAMES_ITER}${PGT_LIB_EXT}\"  ")
 	ENDFOREACH(PGT_LIB_NAMES_ITER)
-
+MESSAGE(STATUS ${PGT_LIB_COMMAND})
 #searching for opengl
 	INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
 	if(NOT OPENGL_FOUND)
 	    message(ERROR " OPENGL not found!")
 	endif(NOT OPENGL_FOUND)
 	message(STATUS "OPENGL PATH:  ${OPENGL_gl_LIBRARY}")
-	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${OPENGL_gl_LIBRARY}${CMGR_LIB_EXT}\"  ")
-	#Combine Lib with Dependencies through external Command
+	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${OPENGL_gl_LIBRARY}${PGT_LIB_EXT}\"  ")
 
+#Combine Lib with Dependencies through external Command
 add_custom_command(
 	TARGET pgt_slim POST_BUILD
-	WORKING_DIRECTORY ${PGT_BUILD_DIR}
 	DEPENDS pgt_slim
 	COMMAND lib.exe /OUT:${PGT_BUILD_DIR}/pgt.lib ${PGT_BUILD_DIR}/pgt_slim.lib ${PGT_LIB_COMMAND}
 )
 
-
-
-#Import the Created Combined Lib
-add_library (pgt STATIC IMPORTED GLOBAL)
-add_dependencies(pgt pgt_slim)
-set_target_properties(pgt PROPERTIES
-  IMPORTED_LOCATION "${PGT_BUILD_DIR}/pgt.lib"
-)
 
