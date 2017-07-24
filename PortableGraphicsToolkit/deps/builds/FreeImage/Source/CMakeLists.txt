@@ -38,7 +38,7 @@ SET(FI_SRCS
     FreeImage/PluginCUT.cpp
     FreeImage/PluginDDS.cpp
     FreeImage/PluginEXR.cpp
-    FreeImage/PluginG3.cpp
+	#FreeImage/PluginG3.cpp
     FreeImage/PluginGIF.cpp
     FreeImage/PluginHDR.cpp
     FreeImage/PluginICO.cpp
@@ -79,7 +79,7 @@ SET(FI_SRCS
     Metadata/IPTC.cpp
     Metadata/TagConversion.cpp
     Metadata/TagLib.cpp
-    Metadata/XTIFF.cpp
+#    Metadata/XTIFF.cpp
     FreeImageToolkit/Background.cpp
     FreeImageToolkit/BSplineRotate.cpp
     FreeImageToolkit/Channels.cpp
@@ -252,96 +252,96 @@ SET(FI_LIBTIFF4_SRCS
     LibTIFF4/tif_zip.c
 )
 SET(FI_LIBWEBP_SRCS
-    LibWebP/src/dec/dec.alpha.c
-    LibWebP/src/dec/dec.buffer.c
-    LibWebP/src/dec/dec.frame.c
-    LibWebP/src/dec/dec.idec.c
-    LibWebP/src/dec/dec.io.c
-    LibWebP/src/dec/dec.quant.c
-    LibWebP/src/dec/dec.tree.c
-    LibWebP/src/dec/dec.vp8.c
-    LibWebP/src/dec/dec.vp8l.c
-    LibWebP/src/dec/dec.webp.c
-    LibWebP/src/demux/demux.demux.c
-    LibWebP/src/dsp/dsp.alpha_processing.c
-    LibWebP/src/dsp/dsp.alpha_processing_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.alpha_processing_sse2.c
-    LibWebP/src/dsp/dsp.argb.c
-    LibWebP/src/dsp/dsp.argb_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.argb_sse2.c
-    LibWebP/src/dsp/dsp.cost.c
-    LibWebP/src/dsp/dsp.cost_mips32.c
-    LibWebP/src/dsp/dsp.cost_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.cost_sse2.c
-    LibWebP/src/dsp/dsp.cpu.c
-    LibWebP/src/dsp/dsp.dec.c
-    LibWebP/src/dsp/dsp.dec_clip_tables.c
-    LibWebP/src/dsp/dsp.dec_mips32.c
-    LibWebP/src/dsp/dsp.dec_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.dec_neon.c
-    LibWebP/src/dsp/dsp.dec_sse2.c
-    LibWebP/src/dsp/dsp.enc.c
-    LibWebP/src/dsp/dsp.enc_avx2.c
-    LibWebP/src/dsp/dsp.enc_mips32.c
-    LibWebP/src/dsp/dsp.enc_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.enc_neon.c
-    LibWebP/src/dsp/dsp.enc_sse2.c
-    LibWebP/src/dsp/dsp.filters.c
-    LibWebP/src/dsp/dsp.filters_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.filters_sse2.c
-    LibWebP/src/dsp/dsp.lossless.c
-    LibWebP/src/dsp/dsp.lossless_mips32.c
-    LibWebP/src/dsp/dsp.lossless_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.lossless_neon.c
-    LibWebP/src/dsp/dsp.lossless_sse2.c
-    LibWebP/src/dsp/dsp.rescaler.c
-    LibWebP/src/dsp/dsp.rescaler_mips32.c
-    LibWebP/src/dsp/dsp.rescaler_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.upsampling.c
-    LibWebP/src/dsp/dsp.upsampling_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.upsampling_neon.c
-    LibWebP/src/dsp/dsp.upsampling_sse2.c
-    LibWebP/src/dsp/dsp.yuv.c
-    LibWebP/src/dsp/dsp.yuv_mips32.c
-    LibWebP/src/dsp/dsp.yuv_mips_dsp_r2.c
-    LibWebP/src/dsp/dsp.yuv_sse2.c
-    LibWebP/src/enc/enc.alpha.c
-    LibWebP/src/enc/enc.analysis.c
-    LibWebP/src/enc/enc.backward_references.c
-    LibWebP/src/enc/enc.config.c
-    LibWebP/src/enc/enc.cost.c
-    LibWebP/src/enc/enc.filter.c
-    LibWebP/src/enc/enc.frame.c
-    LibWebP/src/enc/enc.histogram.c
-    LibWebP/src/enc/enc.iterator.c
-    LibWebP/src/enc/enc.near_lossless.c
-    LibWebP/src/enc/enc.picture.c
-    LibWebP/src/enc/enc.picture_csp.c
-    LibWebP/src/enc/enc.picture_psnr.c
-    LibWebP/src/enc/enc.picture_rescale.c
-    LibWebP/src/enc/enc.picture_tools.c
-    LibWebP/src/enc/enc.quant.c
-    LibWebP/src/enc/enc.syntax.c
-    LibWebP/src/enc/enc.token.c
-    LibWebP/src/enc/enc.tree.c
-    LibWebP/src/enc/enc.vp8l.c
-    LibWebP/src/enc/enc.webpenc.c
-    LibWebP/src/mux/mux.anim_encode.c
-    LibWebP/src/mux/mux.muxedit.c
-    LibWebP/src/mux/mux.muxinternal.c
-    LibWebP/src/mux/mux.muxread.c
-    LibWebP/src/utils/utils.bit_reader.c
-    LibWebP/src/utils/utils.bit_writer.c
-    LibWebP/src/utils/utils.color_cache.c
-    LibWebP/src/utils/utils.filters.c
-    LibWebP/src/utils/utils.huffman.c
-    LibWebP/src/utils/utils.huffman_encode.c
-    LibWebP/src/utils/utils.quant_levels.c
-    LibWebP/src/utils/utils.quant_levels_dec.c
-    LibWebP/src/utils/utils.random.c
-    LibWebP/src/utils/utils.rescaler.c
-    LibWebP/src/utils/utils.thread.c
-    LibWebP/src/utils/utils.utils.c
+    LibWebP/src/dec/alpha.c
+    LibWebP/src/dec/buffer.c
+    LibWebP/src/dec/frame.c
+    LibWebP/src/dec/idec.c
+    LibWebP/src/dec/io.c
+    LibWebP/src/dec/quant.c
+    LibWebP/src/dec/tree.c
+    LibWebP/src/dec/vp8.c
+    LibWebP/src/dec/vp8l.c
+    LibWebP/src/dec/webp.c
+    LibWebP/src/demux/demux.c
+    LibWebP/src/dsp/alpha_processing.c
+    LibWebP/src/dsp/alpha_processing_mips_dsp_r2.c
+    LibWebP/src/dsp/alpha_processing_sse2.c
+    LibWebP/src/dsp/argb.c
+    LibWebP/src/dsp/argb_mips_dsp_r2.c
+    LibWebP/src/dsp/argb_sse2.c
+    LibWebP/src/dsp/cost.c
+    LibWebP/src/dsp/cost_mips32.c
+    LibWebP/src/dsp/cost_mips_dsp_r2.c
+    LibWebP/src/dsp/cost_sse2.c
+    LibWebP/src/dsp/cpu.c
+    LibWebP/src/dsp/dec.c
+    LibWebP/src/dsp/dec_clip_tables.c
+    LibWebP/src/dsp/dec_mips32.c
+    LibWebP/src/dsp/dec_mips_dsp_r2.c
+    LibWebP/src/dsp/dec_neon.c
+    LibWebP/src/dsp/dec_sse2.c
+    LibWebP/src/dsp/enc.c
+    LibWebP/src/dsp/enc_avx2.c
+    LibWebP/src/dsp/enc_mips32.c
+    LibWebP/src/dsp/enc_mips_dsp_r2.c
+    LibWebP/src/dsp/enc_neon.c
+    LibWebP/src/dsp/enc_sse2.c
+    LibWebP/src/dsp/filters.c
+    LibWebP/src/dsp/filters_mips_dsp_r2.c
+    LibWebP/src/dsp/filters_sse2.c
+    LibWebP/src/dsp/lossless_enc.c
+    LibWebP/src/dsp/lossless_enc_mips32.c
+    LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c
+    LibWebP/src/dsp/lossless_enc_neon.c
+    LibWebP/src/dsp/lossless_enc_sse2.c
+    LibWebP/src/dsp/rescaler.c
+    LibWebP/src/dsp/rescaler_mips32.c
+    LibWebP/src/dsp/rescaler_mips_dsp_r2.c
+    LibWebP/src/dsp/upsampling.c
+    LibWebP/src/dsp/upsampling_mips_dsp_r2.c
+    LibWebP/src/dsp/upsampling_neon.c
+    LibWebP/src/dsp/upsampling_sse2.c
+    LibWebP/src/dsp/yuv.c
+    LibWebP/src/dsp/yuv_mips32.c
+    LibWebP/src/dsp/yuv_mips_dsp_r2.c
+    LibWebP/src/dsp/yuv_sse2.c
+    LibWebP/src/enc/alpha.c
+    LibWebP/src/enc/analysis.c
+    LibWebP/src/enc/backward_references.c
+    LibWebP/src/enc/config.c
+    LibWebP/src/enc/cost.c
+    LibWebP/src/enc/filter.c
+    LibWebP/src/enc/frame.c
+    LibWebP/src/enc/histogram.c
+    LibWebP/src/enc/iterator.c
+    LibWebP/src/enc/near_lossless.c
+    LibWebP/src/enc/picture.c
+    LibWebP/src/enc/picture_csp.c
+    LibWebP/src/enc/picture_psnr.c
+    LibWebP/src/enc/picture_rescale.c
+    LibWebP/src/enc/picture_tools.c
+    LibWebP/src/enc/quant.c
+    LibWebP/src/enc/syntax.c
+    LibWebP/src/enc/token.c
+    LibWebP/src/enc/tree.c
+    LibWebP/src/enc/vp8l.c
+    LibWebP/src/enc/webpenc.c
+    LibWebP/src/mux/anim_encode.c
+    LibWebP/src/mux/muxedit.c
+    LibWebP/src/mux/muxinternal.c
+    LibWebP/src/mux/muxread.c
+    LibWebP/src/utils/bit_reader.c
+    LibWebP/src/utils/bit_writer.c
+    LibWebP/src/utils/color_cache.c
+    LibWebP/src/utils/filters.c
+    LibWebP/src/utils/huffman.c
+    LibWebP/src/utils/huffman_encode.c
+    LibWebP/src/utils/quant_levels.c
+    LibWebP/src/utils/quant_levels_dec.c
+    LibWebP/src/utils/random.c
+    LibWebP/src/utils/rescaler.c
+    LibWebP/src/utils/thread.c
+    LibWebP/src/utils/utils.c
 )
 SET(FI_OPENEXR_SRCS
     OpenEXR/IexMath/IexMathFpu.cpp
@@ -477,13 +477,31 @@ SET(FI_PP_DEFS
     _CRT_SECURE_NO_DEPRECATE
     LIBRAW_NODLL
     DISABLE_PERF_MEASUREMENT
+	FREEIMAGE_LIBRARY_TYPE=STATIC
 )
 
-IF(${WIN32})
+IF(${WIN32} AND NOT MINGW)
 	message(STATUS ${FI_PP_DEFS})
-    list(APPEND FI_PP_DEFS "WIN32")
-    message(STATUS ${FI_PP_DEFS})
-ENDIF(${WIN32})
+	list(APPEND FI_PP_DEFS "WIN32")
+	message(STATUS ${FI_PP_DEFS})
+ENDIF()
+IF(MINGW)
+	message(STATUS ${FI_PP_DEFS})
+	list(APPEND FI_PP_DEFS "_GLIBCXX_USE_C99_DYNAMIC" "FIP_EXPORTS" "FREEIMAGE_EXPORTS" )
+	message(STATUS ${FI_PP_DEFS})
+	FOREACH(pgt_flagvar
+		CMAKE_CXX_FLAGS_RELEASE
+		CMAKE_CXX_FLAGS_DEBUG
+		CMAKE_CXX_FLAGS_MINSIZEREL
+		CMAKE_CXX_FLAGS_RELWITHDEBINFO
+		CMAKE_C_FLAGS_RELEASE
+		CMAKE_C_FLAGS_DEBUG
+		CMAKE_C_FLAGS_MINSIZEREL
+		CMAKE_C_FLAGS_RELWITHDEBINFO
+		)
+		STRING(APPEND ${pgt_flagvar} "  -Wno-write-strings -Wno-narrowing -fpermissive -Wno-deprecated")
+	ENDFOREACH()
+ENDIF()
 
 SET(FI_INCLUDE_DIRS
 	./
@@ -499,6 +517,7 @@ SET(FI_INCLUDE_DIRS
 	OpenEXR/ZLib
 	LibJXR/jxrgluelib
 	LibJXR/image/sys
+	LibJXR/common/include
 	LibRawLite
 )
 add_library(FreeImage 

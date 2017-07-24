@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.7)
+set(CMAKE_CXX_STANDARD 14)
 #project(PGTEngine_core)
 
 #Specifying Code Files 
@@ -258,23 +259,32 @@ target_compile_definitions(pgt_slim PRIVATE
 
 #build dependencies
 add_subdirectory(deps/builds)
-add_dependencies(pgt_slim glew_s FreeImage freetype freetype-gl SDL2main SDL2-static)
+add_dependencies(pgt_slim glew_s freetype freetype-gl SDL2main SDL2-static FreeImage)
 
 #Searching for Libs that we depend on
 
 	set (PGT_LIB_LIST
-		"${PGT_BUILD_DIR}/freetype-gl"
-		"${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>"
-		"${PGT_BUILD_DIR}/SDL2"
-		"${PGT_BUILD_DIR}/SDL2main"
-		"${PGT_BUILD_DIR}/freetype$<$<CONFIG:Debug>:d>"
-		"${PGT_BUILD_DIR}/FreeImage"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype-gl"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2main"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype$<$<CONFIG:Debug>:d>"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}FreeImage"
 	)
-	SET(PGT_LIB_COMMAND "")
+SET(PGT_LIB_COMMAND "")
+IF(MSVC)
+	list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>")
 	FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
-		SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${PGT_LIB_NAMES_ITER}${PGT_LIB_EXT}\"  ")
+		SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} \"${PGT_LIB_NAMES_ITER}${PGT_LIB_EXT}\"")
 	ENDFOREACH(PGT_LIB_NAMES_ITER)
+ELSE()
+	list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/libglew32$<$<CONFIG:Debug>:d>")
+	FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
+		SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} ADDLIB \"${PGT_LIB_NAMES_ITER}${PGT_LIB_EXT}\"  ")
+	ENDFOREACH(PGT_LIB_NAMES_ITER)
+ENDIF()
+
 MESSAGE(STATUS ${PGT_LIB_COMMAND})
+
 #searching for opengl
 	INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
 	if(NOT OPENGL_FOUND)
@@ -284,10 +294,17 @@ MESSAGE(STATUS ${PGT_LIB_COMMAND})
 	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${OPENGL_gl_LIBRARY}${PGT_LIB_EXT}\"  ")
 
 #Combine Lib with Dependencies through external Command
-add_custom_command(
-	TARGET pgt_slim POST_BUILD
-	DEPENDS pgt_slim
-	COMMAND lib.exe /OUT:${PGT_BUILD_DIR}/pgt.lib ${PGT_BUILD_DIR}/pgt_slim.lib ${PGT_LIB_COMMAND}
-)
-
+IF(MSVC)
+	add_custom_command(
+		TARGET pgt_slim POST_BUILD
+		DEPENDS pgt_slim
+		COMMAND lib.exe /OUT:${PGT_BUILD_DIR}/pgt.lib ${PGT_BUILD_DIR}/pgt_slim.lib ${PGT_LIB_COMMAND}
+	)
+ELSEIF(MINGW)
+	add_custom_command(
+		TARGET pgt_slim POST_BUILD
+		DEPENDS pgt_slim
+		COMMAND "${CMAKE_CURRENT_SOURCE_DIR}/deps/builds/linux_combine_libs.sh" "${PGT_BUILD_DIR}" "C:/MinGW/mingw64/mingw64/x86_64-w64-mingw32/lib" "$<$<CONFIG:Debug>:d>"
+	)
+ENDIF()
 

@@ -6,7 +6,7 @@
         "generator": "Visual Studio 15 2017",
         "configurationType": "Release",
         "buildRoot": "${workspaceRoot}\\CMakeBuild\\${name}",
-        "cmakeCommandArgs": "",
+        "cmakeCommandArgs": "-DPGT_STATIC=1",
         "buildCommandArgs": "",
         "ctestCommandArgs": ""
       },

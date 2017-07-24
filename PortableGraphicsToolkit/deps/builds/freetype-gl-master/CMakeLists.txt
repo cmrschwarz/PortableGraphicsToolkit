@@ -74,25 +74,27 @@ if(NOT HAVE_M_PI)
     endif()
 endif()
 
-if(NOT MINGW AND (WIN32 OR WIN64))
-    set(GLEW_ROOT_DIR
-        ${CMAKE_CURRENT_SOURCE_DIR}/windows/glew)
-    set(ENV{FREETYPE_DIR}
-        ${CMAKE_CURRENT_SOURCE_DIR}/windows/freetype)
-endif()
+IF(FALSE)
+	if(NOT MINGW AND (WIN32 OR WIN64))
+	    set(GLEW_ROOT_DIR
+	        ${CMAKE_CURRENT_SOURCE_DIR}/windows/glew)
+	    set(ENV{FREETYPE_DIR}
+	        ${CMAKE_CURRENT_SOURCE_DIR}/windows/freetype)
+	endif()
 
-find_package(OpenGL REQUIRED)
-find_package(Freetype REQUIRED)
+	find_package(OpenGL REQUIRED)
+	find_package(Freetype REQUIRED)
 
-if(freetype-gl_WITH_GLEW)
-    find_package(GLEW REQUIRED)
-endif()
+	if(freetype-gl_WITH_GLEW)
+	    find_package(GLEW REQUIRED)
+	endif()
+ENDIF()
 
 include_directories(
     ${OPENGL_INCLUDE_DIRS}
-    ${FREETYPE_INCLUDE_DIRS}
+   	${CMAKE_CURRENT_SOURCE_DIR}/../freetype-2.8/include
     ${CMAKE_CURRENT_SOURCE_DIR}
-    ${GLEW_INCLUDE_PATH}
+   	${CMAKE_CURRENT_SOURCE_DIR}/../glew-2.0.0/include
 )
 
 if(MSVC)

@@ -1,6 +1,7 @@
 #pragma once
 #include <pgt/io/istreams/IStreamReader.h>
 #include <stdexcept>
+#include <memory.h> //TODO(CS): REVERT THIS CHANGE
 namespace pgt {
     class MemoryStreamReader : public IStreamReader {
     private:

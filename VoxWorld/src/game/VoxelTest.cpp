@@ -139,7 +139,7 @@ namespace game {
         hints.title = "Cube Tales";
         hints.resizable = true;
         hints.tps = 30;
-        hints.vSync = true;
+        hints.vSync = false;
         hints.fullscreen = false;
         return hints;
     }

@@ -1,0 +1,10 @@
+LIBRARY DiagramTool
+EXPORTS
+dtSetTableValueStr
+dtSetTableValueDbl
+dtShowWindow
+dtReset
+dtSetClickCallback
+dtSetColumnLineMode
+dtSetColumnColor
+dtGetStr

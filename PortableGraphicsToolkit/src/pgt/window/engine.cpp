@@ -42,7 +42,7 @@ namespace pgt {
                     PGTResourceManager::ARIALROUNDEDMT_TTF_SIZE));
 #if 1
             vfs.mountDirectory("/res/",
-				new_mo< OSDirectory>("shaders", "C:/daten_local/tech/programming/CPlusPlus/PGTEngine/VoxWorld/res/shaders"));
+				new_mo< OSDirectory>("shaders", "C:/Users/Christian/Desktop/demo_Krafft/Grafik/res/shaders"));
 
 #else
 
