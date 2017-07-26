@@ -74,9 +74,9 @@
 /* #undef HAVE_STRING_H */
 /* #undef HAVE_STRINGS_H */
 /* #undef HAVE_INTTYPES_H */
-/* #undef HAVE_STDINT_H */
+#define HAVE_STDINT_H 1
 /* #undef HAVE_CTYPE_H */
-/* #undef HAVE_MATH_H */
+#define HAVE_MATH_H 1
 /* #undef HAVE_ICONV_H */
 /* #undef HAVE_SIGNAL_H */
 /* #undef HAVE_ALTIVEC_H */
@@ -139,25 +139,25 @@
 /* #undef HAVE_STRNCASECMP */
 /* #undef HAVE_VSSCANF */
 /* #undef HAVE_VSNPRINTF */
-/* #undef HAVE_M_PI */
+#define HAVE_M_PI 1
 /* #undef HAVE_ATAN */
 /* #undef HAVE_ATAN2 */
 /* #undef HAVE_ACOS */
 /* #undef HAVE_ASIN */
 /* #undef HAVE_CEIL */
 /* #undef HAVE_COPYSIGN */
-/* #undef HAVE_COS */
+#define HAVE_COS 1
 /* #undef HAVE_COSF */
-/* #undef HAVE_FABS */
-/* #undef HAVE_FLOOR */
+#define HAVE_FABS 1
+#define HAVE_FLOOR 1
 /* #undef HAVE_LOG */
-/* #undef HAVE_POW */
+#define HAVE_POW 1
 /* #undef HAVE_SCALBN */
-/* #undef HAVE_SIN */
+#define HAVE_SIN 1
 /* #undef HAVE_SINF */
-/* #undef HAVE_SQRT */
+#define HAVE_SQRT 1
 /* #undef HAVE_SQRTF */
-/* #undef HAVE_TAN */
+#define HAVE_TAN 1
 /* #undef HAVE_TANF */
 /* #undef HAVE_FSEEKO */
 /* #undef HAVE_FSEEKO64 */

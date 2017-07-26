@@ -6778,6 +6778,33 @@ LibWebP/src/dsp/alpha_processing_sse2.c.s:
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.s
 .PHONY : LibWebP/src/dsp/alpha_processing_sse2.c.s
 
+LibWebP/src/dsp/alpha_processing_sse41.obj: LibWebP/src/dsp/alpha_processing_sse41.c.obj
+
+.PHONY : LibWebP/src/dsp/alpha_processing_sse41.obj
+
+# target to build an object file
+LibWebP/src/dsp/alpha_processing_sse41.c.obj:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj
+.PHONY : LibWebP/src/dsp/alpha_processing_sse41.c.obj
+
+LibWebP/src/dsp/alpha_processing_sse41.i: LibWebP/src/dsp/alpha_processing_sse41.c.i
+
+.PHONY : LibWebP/src/dsp/alpha_processing_sse41.i
+
+# target to preprocess a source file
+LibWebP/src/dsp/alpha_processing_sse41.c.i:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.i
+.PHONY : LibWebP/src/dsp/alpha_processing_sse41.c.i
+
+LibWebP/src/dsp/alpha_processing_sse41.s: LibWebP/src/dsp/alpha_processing_sse41.c.s
+
+.PHONY : LibWebP/src/dsp/alpha_processing_sse41.s
+
+# target to generate assembly for a file
+LibWebP/src/dsp/alpha_processing_sse41.c.s:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.s
+.PHONY : LibWebP/src/dsp/alpha_processing_sse41.c.s
+
 LibWebP/src/dsp/argb.obj: LibWebP/src/dsp/argb.c.obj
 
 .PHONY : LibWebP/src/dsp/argb.obj
@@ -7156,6 +7183,33 @@ LibWebP/src/dsp/dec_sse2.c.s:
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.s
 .PHONY : LibWebP/src/dsp/dec_sse2.c.s
 
+LibWebP/src/dsp/dec_sse41.obj: LibWebP/src/dsp/dec_sse41.c.obj
+
+.PHONY : LibWebP/src/dsp/dec_sse41.obj
+
+# target to build an object file
+LibWebP/src/dsp/dec_sse41.c.obj:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj
+.PHONY : LibWebP/src/dsp/dec_sse41.c.obj
+
+LibWebP/src/dsp/dec_sse41.i: LibWebP/src/dsp/dec_sse41.c.i
+
+.PHONY : LibWebP/src/dsp/dec_sse41.i
+
+# target to preprocess a source file
+LibWebP/src/dsp/dec_sse41.c.i:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.i
+.PHONY : LibWebP/src/dsp/dec_sse41.c.i
+
+LibWebP/src/dsp/dec_sse41.s: LibWebP/src/dsp/dec_sse41.c.s
+
+.PHONY : LibWebP/src/dsp/dec_sse41.s
+
+# target to generate assembly for a file
+LibWebP/src/dsp/dec_sse41.c.s:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.s
+.PHONY : LibWebP/src/dsp/dec_sse41.c.s
+
 LibWebP/src/dsp/enc.obj: LibWebP/src/dsp/enc.c.obj
 
 .PHONY : LibWebP/src/dsp/enc.obj
@@ -7317,6 +7371,33 @@ LibWebP/src/dsp/enc_sse2.s: LibWebP/src/dsp/enc_sse2.c.s
 LibWebP/src/dsp/enc_sse2.c.s:
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.s
 .PHONY : LibWebP/src/dsp/enc_sse2.c.s
+
+LibWebP/src/dsp/enc_sse41.obj: LibWebP/src/dsp/enc_sse41.c.obj
+
+.PHONY : LibWebP/src/dsp/enc_sse41.obj
+
+# target to build an object file
+LibWebP/src/dsp/enc_sse41.c.obj:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj
+.PHONY : LibWebP/src/dsp/enc_sse41.c.obj
+
+LibWebP/src/dsp/enc_sse41.i: LibWebP/src/dsp/enc_sse41.c.i
+
+.PHONY : LibWebP/src/dsp/enc_sse41.i
+
+# target to preprocess a source file
+LibWebP/src/dsp/enc_sse41.c.i:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.i
+.PHONY : LibWebP/src/dsp/enc_sse41.c.i
+
+LibWebP/src/dsp/enc_sse41.s: LibWebP/src/dsp/enc_sse41.c.s
+
+.PHONY : LibWebP/src/dsp/enc_sse41.s
+
+# target to generate assembly for a file
+LibWebP/src/dsp/enc_sse41.c.s:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.s
+.PHONY : LibWebP/src/dsp/enc_sse41.c.s
 
 LibWebP/src/dsp/filters.obj: LibWebP/src/dsp/filters.c.obj
 
@@ -7560,6 +7641,87 @@ LibWebP/src/dsp/lossless_enc_sse2.s: LibWebP/src/dsp/lossless_enc_sse2.c.s
 LibWebP/src/dsp/lossless_enc_sse2.c.s:
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.s
 .PHONY : LibWebP/src/dsp/lossless_enc_sse2.c.s
+
+LibWebP/src/dsp/lossless_enc_sse41.obj: LibWebP/src/dsp/lossless_enc_sse41.c.obj
+
+.PHONY : LibWebP/src/dsp/lossless_enc_sse41.obj
+
+# target to build an object file
+LibWebP/src/dsp/lossless_enc_sse41.c.obj:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj
+.PHONY : LibWebP/src/dsp/lossless_enc_sse41.c.obj
+
+LibWebP/src/dsp/lossless_enc_sse41.i: LibWebP/src/dsp/lossless_enc_sse41.c.i
+
+.PHONY : LibWebP/src/dsp/lossless_enc_sse41.i
+
+# target to preprocess a source file
+LibWebP/src/dsp/lossless_enc_sse41.c.i:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.i
+.PHONY : LibWebP/src/dsp/lossless_enc_sse41.c.i
+
+LibWebP/src/dsp/lossless_enc_sse41.s: LibWebP/src/dsp/lossless_enc_sse41.c.s
+
+.PHONY : LibWebP/src/dsp/lossless_enc_sse41.s
+
+# target to generate assembly for a file
+LibWebP/src/dsp/lossless_enc_sse41.c.s:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.s
+.PHONY : LibWebP/src/dsp/lossless_enc_sse41.c.s
+
+LibWebP/src/dsp/lossless_mips_dsp_r2.obj: LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj
+
+.PHONY : LibWebP/src/dsp/lossless_mips_dsp_r2.obj
+
+# target to build an object file
+LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj
+.PHONY : LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj
+
+LibWebP/src/dsp/lossless_mips_dsp_r2.i: LibWebP/src/dsp/lossless_mips_dsp_r2.c.i
+
+.PHONY : LibWebP/src/dsp/lossless_mips_dsp_r2.i
+
+# target to preprocess a source file
+LibWebP/src/dsp/lossless_mips_dsp_r2.c.i:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.i
+.PHONY : LibWebP/src/dsp/lossless_mips_dsp_r2.c.i
+
+LibWebP/src/dsp/lossless_mips_dsp_r2.s: LibWebP/src/dsp/lossless_mips_dsp_r2.c.s
+
+.PHONY : LibWebP/src/dsp/lossless_mips_dsp_r2.s
+
+# target to generate assembly for a file
+LibWebP/src/dsp/lossless_mips_dsp_r2.c.s:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.s
+.PHONY : LibWebP/src/dsp/lossless_mips_dsp_r2.c.s
+
+LibWebP/src/dsp/lossless_neon.obj: LibWebP/src/dsp/lossless_neon.c.obj
+
+.PHONY : LibWebP/src/dsp/lossless_neon.obj
+
+# target to build an object file
+LibWebP/src/dsp/lossless_neon.c.obj:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj
+.PHONY : LibWebP/src/dsp/lossless_neon.c.obj
+
+LibWebP/src/dsp/lossless_neon.i: LibWebP/src/dsp/lossless_neon.c.i
+
+.PHONY : LibWebP/src/dsp/lossless_neon.i
+
+# target to preprocess a source file
+LibWebP/src/dsp/lossless_neon.c.i:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.i
+.PHONY : LibWebP/src/dsp/lossless_neon.c.i
+
+LibWebP/src/dsp/lossless_neon.s: LibWebP/src/dsp/lossless_neon.c.s
+
+.PHONY : LibWebP/src/dsp/lossless_neon.s
+
+# target to generate assembly for a file
+LibWebP/src/dsp/lossless_neon.c.s:
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug && $(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.s
+.PHONY : LibWebP/src/dsp/lossless_neon.c.s
 
 LibWebP/src/dsp/lossless_sse2.obj: LibWebP/src/dsp/lossless_sse2.c.obj
 
@@ -13087,6 +13249,9 @@ help:
 	@echo ... LibWebP/src/dsp/alpha_processing_sse2.obj
 	@echo ... LibWebP/src/dsp/alpha_processing_sse2.i
 	@echo ... LibWebP/src/dsp/alpha_processing_sse2.s
+	@echo ... LibWebP/src/dsp/alpha_processing_sse41.obj
+	@echo ... LibWebP/src/dsp/alpha_processing_sse41.i
+	@echo ... LibWebP/src/dsp/alpha_processing_sse41.s
 	@echo ... LibWebP/src/dsp/argb.obj
 	@echo ... LibWebP/src/dsp/argb.i
 	@echo ... LibWebP/src/dsp/argb.s
@@ -13129,6 +13294,9 @@ help:
 	@echo ... LibWebP/src/dsp/dec_sse2.obj
 	@echo ... LibWebP/src/dsp/dec_sse2.i
 	@echo ... LibWebP/src/dsp/dec_sse2.s
+	@echo ... LibWebP/src/dsp/dec_sse41.obj
+	@echo ... LibWebP/src/dsp/dec_sse41.i
+	@echo ... LibWebP/src/dsp/dec_sse41.s
 	@echo ... LibWebP/src/dsp/enc.obj
 	@echo ... LibWebP/src/dsp/enc.i
 	@echo ... LibWebP/src/dsp/enc.s
@@ -13147,6 +13315,9 @@ help:
 	@echo ... LibWebP/src/dsp/enc_sse2.obj
 	@echo ... LibWebP/src/dsp/enc_sse2.i
 	@echo ... LibWebP/src/dsp/enc_sse2.s
+	@echo ... LibWebP/src/dsp/enc_sse41.obj
+	@echo ... LibWebP/src/dsp/enc_sse41.i
+	@echo ... LibWebP/src/dsp/enc_sse41.s
 	@echo ... LibWebP/src/dsp/filters.obj
 	@echo ... LibWebP/src/dsp/filters.i
 	@echo ... LibWebP/src/dsp/filters.s
@@ -13174,6 +13345,15 @@ help:
 	@echo ... LibWebP/src/dsp/lossless_enc_sse2.obj
 	@echo ... LibWebP/src/dsp/lossless_enc_sse2.i
 	@echo ... LibWebP/src/dsp/lossless_enc_sse2.s
+	@echo ... LibWebP/src/dsp/lossless_enc_sse41.obj
+	@echo ... LibWebP/src/dsp/lossless_enc_sse41.i
+	@echo ... LibWebP/src/dsp/lossless_enc_sse41.s
+	@echo ... LibWebP/src/dsp/lossless_mips_dsp_r2.obj
+	@echo ... LibWebP/src/dsp/lossless_mips_dsp_r2.i
+	@echo ... LibWebP/src/dsp/lossless_mips_dsp_r2.s
+	@echo ... LibWebP/src/dsp/lossless_neon.obj
+	@echo ... LibWebP/src/dsp/lossless_neon.i
+	@echo ... LibWebP/src/dsp/lossless_neon.s
 	@echo ... LibWebP/src/dsp/lossless_sse2.obj
 	@echo ... LibWebP/src/dsp/lossless_sse2.i
 	@echo ... LibWebP/src/dsp/lossless_sse2.s

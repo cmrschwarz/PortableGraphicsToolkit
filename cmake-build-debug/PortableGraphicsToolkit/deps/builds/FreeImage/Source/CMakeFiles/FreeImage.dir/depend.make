@@ -1808,6 +1808,9 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/alpha_processing_sse2.c
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/alpha_processing_sse41.c
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/argb.c
 
@@ -1896,6 +1899,18 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/random.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/thread.h
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/./././decode_vp8.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/././webpi.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/./common.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/./vp8li.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/vp8i.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_sse41.c
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/bit_reader.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/random.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/thread.h
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/common.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dsp.h
@@ -1959,6 +1974,16 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/webp/./types.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/webp/encode.h
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/common.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_sse41.c
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/vp8enci.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/bit_writer.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/thread.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/webp/./types.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/webp/encode.h
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/filters.c
 
@@ -2013,6 +2038,19 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_sse2.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_sse41.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_mips_dsp_r2.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./neon.h
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_neon.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h

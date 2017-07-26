@@ -1696,6 +1696,12 @@ C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphi
 emmintrin.h
 -
 
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/alpha_processing_sse41.c
+./dsp.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+smmintrin.h
+-
+
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/argb.c
 ./dsp.h
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
@@ -1792,6 +1798,14 @@ emmintrin.h
 ../dec/vp8i.h
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/vp8i.h
 
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_sse41.c
+./dsp.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+smmintrin.h
+-
+../dec/vp8i.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/vp8i.h
+
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dsp.h
 ../webp/config.h
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/webp/config.h
@@ -1857,6 +1871,16 @@ C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphi
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/utils.h
 stdio.h
 -
+
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_sse41.c
+./dsp.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+smmintrin.h
+-
+stdlib.h
+-
+../enc/vp8enci.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/vp8enci.h
 
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/filters.c
 ./dsp.h
@@ -1973,6 +1997,32 @@ emmintrin.h
 -
 ./lossless.h
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
+
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_sse41.c
+./dsp.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+assert.h
+-
+smmintrin.h
+-
+./lossless.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
+
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_mips_dsp_r2.c
+./dsp.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+./lossless.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
+
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_neon.c
+./dsp.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./dsp.h
+arm_neon.h
+-
+./lossless.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./lossless.h
+./neon.h
+C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/./neon.h
 
 C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_sse2.c
 ./dsp.h

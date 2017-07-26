@@ -6331,10 +6331,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/alpha_processing_sse41.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\alpha_processing_sse41.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\alpha_processing_sse41.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\alpha_processing_sse41.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\alpha_processing_sse41.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\alpha_processing_sse41.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\alpha_processing_sse41.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/argb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\argb.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\argb.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.i: cmake_force
@@ -6359,7 +6384,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/argb_mips_dsp_r2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\argb_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\argb_mips_dsp_r2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.i: cmake_force
@@ -6384,7 +6409,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/argb_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\argb_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\argb_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.i: cmake_force
@@ -6409,7 +6434,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/cost.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.i: cmake_force
@@ -6429,31 +6454,6 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 .PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj.provides
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj
-
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/cost_mips32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost_mips32.c
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.i"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost_mips32.c.i
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.s"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost_mips32.c.s
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires:
-
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires
-	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides.build
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj
 
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
@@ -6481,10 +6481,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips_dsp_r2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips_dsp_r2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/cost_mips32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost_mips32.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost_mips32.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost_mips32.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/cost_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cost_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cost_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.i: cmake_force
@@ -6509,7 +6534,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/cpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\cpu.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\cpu.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.i: cmake_force
@@ -6534,7 +6559,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.i: cmake_force
@@ -6559,7 +6584,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_clip_tables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_clip_tables.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_clip_tables.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.i: cmake_force
@@ -6579,31 +6604,6 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 .PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj.provides
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj
-
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_mips32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_mips32.c
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.i"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_mips32.c.i
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.s"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_mips32.c.s
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires:
-
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires
-	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides.build
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj
 
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
@@ -6631,10 +6631,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips_dsp_r2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips_dsp_r2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_mips32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_mips32.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_mips32.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_mips32.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_neon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_neon.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_neon.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.i: cmake_force
@@ -6659,7 +6684,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.i: cmake_force
@@ -6681,10 +6706,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_sse41.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_sse41.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_sse41.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_sse41.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_sse41.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\dec_sse41.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\dec_sse41.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.i: cmake_force
@@ -6709,7 +6759,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_avx2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_avx2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_avx2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.i: cmake_force
@@ -6731,35 +6781,10 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj
 
 
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_mips32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_mips32.c
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.i"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_mips32.c.i
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.s"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_mips32.c.s
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires:
-
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires
-	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides.build
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj
-
-
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_mips_dsp_r2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_mips_dsp_r2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.i: cmake_force
@@ -6781,10 +6806,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_mips32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_mips32.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_mips32.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_mips32.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_neon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_neon.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_neon.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.i: cmake_force
@@ -6809,7 +6859,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.i: cmake_force
@@ -6831,10 +6881,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_sse41.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_sse41.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_sse41.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_sse41.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_sse41.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\enc_sse41.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\enc_sse41.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/filters.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\filters.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\filters.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.i: cmake_force
@@ -6859,7 +6934,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/filters_mips_dsp_r2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\filters_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\filters_mips_dsp_r2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.i: cmake_force
@@ -6884,7 +6959,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/filters_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\filters_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\filters_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.i: cmake_force
@@ -6909,7 +6984,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.i: cmake_force
@@ -6931,35 +7006,10 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj
 
 
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_sse2.c
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.i"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_sse2.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_sse2.c.i
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.s"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_sse2.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_sse2.c.s
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires:
-
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires
-	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides.build
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj
-
-
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.i: cmake_force
@@ -6981,35 +7031,10 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj
 
 
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_mips32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_mips32.c
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.i"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_mips32.c.i
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.s"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_mips32.c.s
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires:
-
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires
-	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides.build
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj
-
-
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_mips_dsp_r2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.i: cmake_force
@@ -7031,10 +7056,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_mips32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_mips32.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_mips32.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_mips32.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_neon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_neon.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_neon.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.i: cmake_force
@@ -7059,7 +7109,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.i: cmake_force
@@ -7081,10 +7131,110 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_sse41.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_sse41.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_sse41.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_sse41.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_sse41.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_enc_sse41.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_enc_sse41.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj
+
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_mips_dsp_r2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_mips_dsp_r2.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_mips_dsp_r2.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_mips_dsp_r2.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_mips_dsp_r2.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_mips_dsp_r2.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj
+
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_neon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_neon.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_neon.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_neon.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_neon.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_neon.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_neon.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj
+
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_sse2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_sse2.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_sse2.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_sse2.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\lossless_sse2.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\lossless_sse2.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/rescaler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.i: cmake_force
@@ -7106,35 +7256,10 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj
 
 
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/rescaler_mips32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler_mips32.c
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.i"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler_mips32.c.i
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.s"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler_mips32.c.s
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires:
-
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires
-	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides.build
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj
-
-
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/rescaler_mips_dsp_r2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler_mips_dsp_r2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.i: cmake_force
@@ -7156,10 +7281,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/rescaler_mips32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler_mips32.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler_mips32.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\rescaler_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\rescaler_mips32.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/upsampling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\upsampling.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\upsampling.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.i: cmake_force
@@ -7184,7 +7334,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/upsampling_mips_dsp_r2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\upsampling_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\upsampling_mips_dsp_r2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.i: cmake_force
@@ -7209,7 +7359,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/upsampling_neon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\upsampling_neon.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\upsampling_neon.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.i: cmake_force
@@ -7234,7 +7384,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/upsampling_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\upsampling_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\upsampling_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.i: cmake_force
@@ -7259,7 +7409,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/yuv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.i: cmake_force
@@ -7281,35 +7431,10 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj
 
 
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/yuv_mips32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_mips32.c
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.i"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_mips32.c.i
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.s"
-	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_mips32.c.s
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires:
-
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires
-	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides.build
-.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides
-
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj
-
-
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/yuv_mips_dsp_r2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_mips_dsp_r2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_mips_dsp_r2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.i: cmake_force
@@ -7331,10 +7456,35 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj
 
 
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/yuv_mips32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_mips32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_mips32.c
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.i"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_mips32.c > CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_mips32.c.i
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.s"
+	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_mips32.c -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_mips32.c.s
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires:
+
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires
+	$(MAKE) -f PortableGraphicsToolkit\deps\builds\FreeImage\Source\CMakeFiles\FreeImage.dir\build.make PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides.build
+.PHONY : PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides
+
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.provides.build: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj
+
+
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/yuv_sse2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\dsp\yuv_sse2.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\dsp\yuv_sse2.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.i: cmake_force
@@ -7359,7 +7509,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/alpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\alpha.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\alpha.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.i: cmake_force
@@ -7384,7 +7534,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/analysis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\analysis.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\analysis.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.i: cmake_force
@@ -7409,7 +7559,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/backward_references.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/backward_references.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/backward_references.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/backward_references.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/backward_references.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/backward_references.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\backward_references.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\backward_references.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/backward_references.c.i: cmake_force
@@ -7434,7 +7584,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/config.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/config.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/config.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/config.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/config.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\config.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\config.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/config.c.i: cmake_force
@@ -7459,7 +7609,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/cost.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/cost.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/cost.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/cost.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/cost.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/cost.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\cost.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\cost.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/cost.c.i: cmake_force
@@ -7484,7 +7634,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/filter.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/filter.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/filter.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/filter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/filter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/filter.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\filter.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\filter.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/filter.c.i: cmake_force
@@ -7509,7 +7659,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/frame.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/frame.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/frame.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/frame.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/frame.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/frame.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\frame.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\frame.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/frame.c.i: cmake_force
@@ -7534,7 +7684,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/histogram.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/histogram.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/histogram.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/histogram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/histogram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/histogram.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\histogram.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\histogram.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/histogram.c.i: cmake_force
@@ -7559,7 +7709,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/iterator.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/iterator.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/iterator.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/iterator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/iterator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/iterator.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\iterator.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\iterator.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/iterator.c.i: cmake_force
@@ -7584,7 +7734,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/near_lossless.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/near_lossless.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/near_lossless.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/near_lossless.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/near_lossless.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/near_lossless.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\near_lossless.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\near_lossless.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/near_lossless.c.i: cmake_force
@@ -7609,7 +7759,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/picture.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\picture.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\picture.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture.c.i: cmake_force
@@ -7634,7 +7784,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_csp.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_csp.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_csp.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/picture_csp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_csp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_csp.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\picture_csp.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\picture_csp.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_csp.c.i: cmake_force
@@ -7659,7 +7809,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_psnr.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_psnr.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_psnr.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/picture_psnr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_psnr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_psnr.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\picture_psnr.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\picture_psnr.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_psnr.c.i: cmake_force
@@ -7684,7 +7834,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_rescale.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_rescale.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_rescale.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/picture_rescale.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_rescale.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_rescale.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\picture_rescale.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\picture_rescale.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_rescale.c.i: cmake_force
@@ -7709,7 +7859,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_tools.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_tools.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_tools.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/picture_tools.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_tools.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_tools.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\picture_tools.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\picture_tools.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/picture_tools.c.i: cmake_force
@@ -7734,7 +7884,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/quant.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/quant.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/quant.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/quant.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/quant.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/quant.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\quant.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\quant.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/quant.c.i: cmake_force
@@ -7759,7 +7909,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/syntax.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/syntax.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/syntax.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/syntax.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/syntax.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/syntax.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\syntax.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\syntax.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/syntax.c.i: cmake_force
@@ -7784,7 +7934,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/token.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/token.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/token.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/token.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/token.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/token.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\token.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\token.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/token.c.i: cmake_force
@@ -7809,7 +7959,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/tree.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/tree.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/tree.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/tree.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\tree.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\tree.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/tree.c.i: cmake_force
@@ -7834,7 +7984,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/vp8l.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/vp8l.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/vp8l.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/vp8l.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/vp8l.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/vp8l.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\vp8l.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\vp8l.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/vp8l.c.i: cmake_force
@@ -7859,7 +8009,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/webpenc.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/webpenc.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/webpenc.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/enc/webpenc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/webpenc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/webpenc.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\enc\webpenc.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\enc\webpenc.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/webpenc.c.i: cmake_force
@@ -7884,7 +8034,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/anim_encode.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/anim_encode.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/anim_encode.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/mux/anim_encode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/anim_encode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/anim_encode.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\mux\anim_encode.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\mux\anim_encode.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/anim_encode.c.i: cmake_force
@@ -7909,7 +8059,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxedit.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxedit.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxedit.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/mux/muxedit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxedit.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxedit.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\mux\muxedit.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\mux\muxedit.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxedit.c.i: cmake_force
@@ -7934,7 +8084,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxinternal.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxinternal.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxinternal.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/mux/muxinternal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxinternal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxinternal.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\mux\muxinternal.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\mux\muxinternal.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxinternal.c.i: cmake_force
@@ -7959,7 +8109,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxread.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxread.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxread.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/mux/muxread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxread.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\mux\muxread.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\mux\muxread.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/mux/muxread.c.i: cmake_force
@@ -7984,7 +8134,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_reader.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_reader.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_reader.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/bit_reader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_reader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_reader.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\bit_reader.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\bit_reader.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_reader.c.i: cmake_force
@@ -8009,7 +8159,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_writer.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_writer.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_writer.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/bit_writer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_writer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_writer.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\bit_writer.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\bit_writer.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/bit_writer.c.i: cmake_force
@@ -8034,7 +8184,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/color_cache.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/color_cache.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/color_cache.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/color_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/color_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/color_cache.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\color_cache.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\color_cache.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/color_cache.c.i: cmake_force
@@ -8059,7 +8209,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/filters.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/filters.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/filters.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/filters.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/filters.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/filters.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\filters.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\filters.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/filters.c.i: cmake_force
@@ -8084,7 +8234,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/huffman.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\huffman.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\huffman.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman.c.i: cmake_force
@@ -8109,7 +8259,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman_encode.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman_encode.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman_encode.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/huffman_encode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman_encode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman_encode.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\huffman_encode.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\huffman_encode.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/huffman_encode.c.i: cmake_force
@@ -8134,7 +8284,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/quant_levels.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\quant_levels.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\quant_levels.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels.c.i: cmake_force
@@ -8159,7 +8309,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels_dec.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels_dec.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels_dec.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/quant_levels_dec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels_dec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels_dec.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\quant_levels_dec.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\quant_levels_dec.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/quant_levels_dec.c.i: cmake_force
@@ -8184,7 +8334,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/random.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/random.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/random.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/random.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/random.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\random.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\random.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/random.c.i: cmake_force
@@ -8209,7 +8359,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/rescaler.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/rescaler.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/rescaler.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/rescaler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/rescaler.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/rescaler.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\rescaler.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\rescaler.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/rescaler.c.i: cmake_force
@@ -8234,7 +8384,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/thread.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/thread.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/thread.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/thread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/thread.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\thread.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\thread.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/thread.c.i: cmake_force
@@ -8259,7 +8409,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/utils.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/utils.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/utils.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/utils/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/utils.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\LibWebP\src\utils\utils.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\LibWebP\src\utils\utils.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/utils/utils.c.i: cmake_force
@@ -8284,7 +8434,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Li
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFpu.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFpu.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFpu.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IexMath/IexMathFpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFpu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFpu.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IexMath\IexMathFpu.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IexMath\IexMathFpu.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFpu.cpp.i: cmake_force
@@ -8309,7 +8459,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/b44ExpLogTable.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/b44ExpLogTable.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/b44ExpLogTable.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/b44ExpLogTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/b44ExpLogTable.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/b44ExpLogTable.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\b44ExpLogTable.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/b44ExpLogTable.cpp.i: cmake_force
@@ -8334,7 +8484,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAcesFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAcesFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAcesFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfAcesFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAcesFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAcesFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfAcesFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAcesFile.cpp.i: cmake_force
@@ -8359,7 +8509,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfAttribute.cpp.i: cmake_force
@@ -8384,7 +8534,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfB44Compressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfB44Compressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfB44Compressor.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfB44Compressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfB44Compressor.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfB44Compressor.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfB44Compressor.cpp.i: cmake_force
@@ -8409,7 +8559,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfBoxAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfBoxAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfBoxAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfBoxAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfBoxAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfBoxAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfBoxAttribute.cpp.i: cmake_force
@@ -8434,7 +8584,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelList.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelList.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelList.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfChannelList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelList.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfChannelList.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelList.cpp.i: cmake_force
@@ -8459,7 +8609,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfChannelListAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.i: cmake_force
@@ -8484,7 +8634,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticities.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticities.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticities.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfChromaticities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticities.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticities.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfChromaticities.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticities.cpp.i: cmake_force
@@ -8509,7 +8659,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.i: cmake_force
@@ -8534,7 +8684,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompositeDeepScanLine.cpp.i: cmake_force
@@ -8559,7 +8709,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfCompressionAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.i: cmake_force
@@ -8584,7 +8734,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressor.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfCompressor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressor.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfCompressor.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCompressor.cpp.i: cmake_force
@@ -8609,7 +8759,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfConvert.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfConvert.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfConvert.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfConvert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfConvert.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfConvert.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfConvert.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfConvert.cpp.i: cmake_force
@@ -8634,7 +8784,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCRgbaFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCRgbaFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCRgbaFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCRgbaFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCRgbaFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfCRgbaFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfCRgbaFile.cpp.i: cmake_force
@@ -8659,7 +8809,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepCompositing.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepCompositing.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepCompositing.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepCompositing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepCompositing.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepCompositing.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepCompositing.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepCompositing.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepCompositing.cpp.i: cmake_force
@@ -8684,7 +8834,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepFrameBuffer.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepFrameBuffer.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepFrameBuffer.cpp.i: cmake_force
@@ -8709,7 +8859,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepImageStateAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepImageStateAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepImageStateAttribute.cpp.i: cmake_force
@@ -8734,7 +8884,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputFile.cpp.i: cmake_force
@@ -8759,7 +8909,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepScanLineInputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineInputPart.cpp.i: cmake_force
@@ -8784,7 +8934,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputFile.cpp.i: cmake_force
@@ -8809,7 +8959,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepScanLineOutputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepScanLineOutputPart.cpp.i: cmake_force
@@ -8834,7 +8984,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputFile.cpp.i: cmake_force
@@ -8859,7 +9009,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepTiledInputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledInputPart.cpp.i: cmake_force
@@ -8884,7 +9034,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputFile.cpp.i: cmake_force
@@ -8909,7 +9059,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDeepTiledOutputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDeepTiledOutputPart.cpp.i: cmake_force
@@ -8934,7 +9084,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDoubleAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.i: cmake_force
@@ -8959,7 +9109,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDwaCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDwaCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDwaCompressor.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfDwaCompressor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDwaCompressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDwaCompressor.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfDwaCompressor.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfDwaCompressor.cpp.i: cmake_force
@@ -8984,7 +9134,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmap.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmap.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmap.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfEnvmap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmap.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmap.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfEnvmap.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmap.cpp.i: cmake_force
@@ -9009,7 +9159,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.i: cmake_force
@@ -9034,7 +9184,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFastHuf.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFastHuf.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFastHuf.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfFastHuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFastHuf.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFastHuf.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfFastHuf.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFastHuf.cpp.i: cmake_force
@@ -9059,7 +9209,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfFloatAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatAttribute.cpp.i: cmake_force
@@ -9084,7 +9234,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfFloatVectorAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfFloatVectorAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFloatVectorAttribute.cpp.i: cmake_force
@@ -9109,7 +9259,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFrameBuffer.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFrameBuffer.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFrameBuffer.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFrameBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFrameBuffer.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfFrameBuffer.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFrameBuffer.cpp.i: cmake_force
@@ -9134,7 +9284,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfFramesPerSecond.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.i: cmake_force
@@ -9159,7 +9309,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericInputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfGenericInputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericInputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericInputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfGenericInputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfGenericInputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericInputFile.cpp.i: cmake_force
@@ -9184,7 +9334,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericOutputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfGenericOutputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericOutputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericOutputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfGenericOutputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfGenericOutputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfGenericOutputFile.cpp.i: cmake_force
@@ -9209,7 +9359,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHeader.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHeader.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHeader.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfHeader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHeader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHeader.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfHeader.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHeader.cpp.i: cmake_force
@@ -9234,7 +9384,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHuf.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHuf.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHuf.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfHuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHuf.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHuf.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfHuf.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfHuf.cpp.i: cmake_force
@@ -9259,7 +9409,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfInputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfInputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputFile.cpp.i: cmake_force
@@ -9284,7 +9434,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfInputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfInputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfInputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPart.cpp.i: cmake_force
@@ -9309,7 +9459,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPartData.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPartData.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPartData.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfInputPartData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPartData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPartData.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfInputPartData.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfInputPartData.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfInputPartData.cpp.i: cmake_force
@@ -9334,7 +9484,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIntAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIntAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIntAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIntAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIntAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfIntAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIntAttribute.cpp.i: cmake_force
@@ -9359,7 +9509,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIO.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIO.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIO.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfIO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIO.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIO.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfIO.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfIO.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfIO.cpp.i: cmake_force
@@ -9384,7 +9534,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCode.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCode.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCode.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfKeyCode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCode.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCode.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfKeyCode.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCode.cpp.i: cmake_force
@@ -9409,7 +9559,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.i: cmake_force
@@ -9434,7 +9584,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.i: cmake_force
@@ -9459,7 +9609,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLut.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLut.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLut.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfLut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLut.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLut.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfLut.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfLut.cpp.i: cmake_force
@@ -9484,7 +9634,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfMatrixAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.i: cmake_force
@@ -9509,7 +9659,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMisc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMisc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMisc.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfMisc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMisc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMisc.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfMisc.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMisc.cpp.i: cmake_force
@@ -9534,7 +9684,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfMultiPartInputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartInputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartInputFile.cpp.i: cmake_force
@@ -9559,7 +9709,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiPartOutputFile.cpp.i: cmake_force
@@ -9584,7 +9734,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiView.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiView.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiView.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfMultiView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiView.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiView.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfMultiView.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfMultiView.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfMultiView.cpp.i: cmake_force
@@ -9609,7 +9759,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.i: cmake_force
@@ -9634,7 +9784,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfOutputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfOutputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputFile.cpp.i: cmake_force
@@ -9659,7 +9809,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfOutputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfOutputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfOutputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPart.cpp.i: cmake_force
@@ -9684,7 +9834,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPartData.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPartData.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPartData.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfOutputPartData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPartData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPartData.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfOutputPartData.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfOutputPartData.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfOutputPartData.cpp.i: cmake_force
@@ -9709,7 +9859,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPartType.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPartType.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPartType.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfPartType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPartType.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPartType.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfPartType.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfPartType.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPartType.cpp.i: cmake_force
@@ -9734,7 +9884,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPizCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPizCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPizCompressor.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPizCompressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPizCompressor.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfPizCompressor.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPizCompressor.cpp.i: cmake_force
@@ -9759,7 +9909,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImage.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImage.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImage.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImage.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfPreviewImage.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImage.cpp.i: cmake_force
@@ -9784,7 +9934,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.i: cmake_force
@@ -9809,7 +9959,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfPxr24Compressor.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.i: cmake_force
@@ -9834,7 +9984,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRational.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRational.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRational.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfRational.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRational.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRational.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfRational.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfRational.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRational.cpp.i: cmake_force
@@ -9859,7 +10009,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRationalAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRationalAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRationalAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRationalAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRationalAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfRationalAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRationalAttribute.cpp.i: cmake_force
@@ -9884,7 +10034,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfRgbaFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaFile.cpp.i: cmake_force
@@ -9909,7 +10059,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaYca.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaYca.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaYca.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaYca.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaYca.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfRgbaYca.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRgbaYca.cpp.i: cmake_force
@@ -9934,7 +10084,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRle.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRle.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRle.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfRle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRle.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfRle.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfRle.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRle.cpp.i: cmake_force
@@ -9959,7 +10109,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRleCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRleCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRleCompressor.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRleCompressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRleCompressor.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfRleCompressor.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfRleCompressor.cpp.i: cmake_force
@@ -9984,7 +10134,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfScanLineInputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.i: cmake_force
@@ -10009,7 +10159,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStandardAttributes.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStandardAttributes.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStandardAttributes.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStandardAttributes.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStandardAttributes.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfStandardAttributes.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStandardAttributes.cpp.i: cmake_force
@@ -10034,7 +10184,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStdIO.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStdIO.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStdIO.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfStdIO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStdIO.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStdIO.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfStdIO.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStdIO.cpp.i: cmake_force
@@ -10059,7 +10209,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfStringAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringAttribute.cpp.i: cmake_force
@@ -10084,7 +10234,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.i: cmake_force
@@ -10109,7 +10259,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfSystemSpecific.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfSystemSpecific.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfSystemSpecific.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfSystemSpecific.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfSystemSpecific.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfSystemSpecific.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfSystemSpecific.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfSystemSpecific.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfSystemSpecific.cpp.i: cmake_force
@@ -10134,7 +10284,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTestFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTestFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTestFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTestFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTestFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTestFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTestFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTestFile.cpp.i: cmake_force
@@ -10159,7 +10309,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfThreading.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfThreading.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfThreading.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfThreading.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfThreading.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfThreading.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfThreading.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfThreading.cpp.i: cmake_force
@@ -10184,7 +10334,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.i: cmake_force
@@ -10209,7 +10359,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTiledInputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputFile.cpp.i: cmake_force
@@ -10234,7 +10384,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTiledInputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTiledInputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledInputPart.cpp.i: cmake_force
@@ -10259,7 +10409,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledMisc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledMisc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledMisc.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledMisc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledMisc.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTiledMisc.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledMisc.cpp.i: cmake_force
@@ -10284,7 +10434,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTiledOutputFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.i: cmake_force
@@ -10309,7 +10459,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputPart.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputPart.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTiledOutputPart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputPart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputPart.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTiledOutputPart.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputPart.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledOutputPart.cpp.i: cmake_force
@@ -10334,7 +10484,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.i: cmake_force
@@ -10359,7 +10509,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileOffsets.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileOffsets.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileOffsets.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileOffsets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileOffsets.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTileOffsets.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTileOffsets.cpp.i: cmake_force
@@ -10384,7 +10534,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCode.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCode.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCode.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTimeCode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCode.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCode.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTimeCode.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCode.cpp.i: cmake_force
@@ -10409,7 +10559,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.i: cmake_force
@@ -10434,7 +10584,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVecAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVecAttribute.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVecAttribute.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVecAttribute.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVecAttribute.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfVecAttribute.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVecAttribute.cpp.i: cmake_force
@@ -10459,7 +10609,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVersion.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVersion.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVersion.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfVersion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVersion.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVersion.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfVersion.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfVersion.cpp.i: cmake_force
@@ -10484,7 +10634,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfWav.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfWav.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfWav.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfWav.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfWav.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfWav.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfWav.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfWav.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfWav.cpp.i: cmake_force
@@ -10509,7 +10659,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZip.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZip.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZip.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfZip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZip.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZip.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfZip.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfZip.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZip.cpp.i: cmake_force
@@ -10534,7 +10684,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZipCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZipCompressor.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZipCompressor.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZipCompressor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZipCompressor.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmImf\ImfZipCompressor.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmImf/ImfZipCompressor.cpp.i: cmake_force
@@ -10559,7 +10709,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathBox.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathBox.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathBox.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Imath/ImathBox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathBox.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathBox.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Imath\ImathBox.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Imath\ImathBox.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathBox.cpp.i: cmake_force
@@ -10584,7 +10734,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathColorAlgo.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathColorAlgo.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathColorAlgo.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Imath/ImathColorAlgo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathColorAlgo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathColorAlgo.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Imath\ImathColorAlgo.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathColorAlgo.cpp.i: cmake_force
@@ -10609,7 +10759,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathFun.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathFun.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathFun.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Imath/ImathFun.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathFun.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathFun.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Imath\ImathFun.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Imath\ImathFun.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathFun.cpp.i: cmake_force
@@ -10634,7 +10784,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathMatrixAlgo.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathMatrixAlgo.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathMatrixAlgo.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathMatrixAlgo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathMatrixAlgo.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Imath\ImathMatrixAlgo.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathMatrixAlgo.cpp.i: cmake_force
@@ -10659,7 +10809,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathRandom.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathRandom.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathRandom.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Imath/ImathRandom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathRandom.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathRandom.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Imath\ImathRandom.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathRandom.cpp.i: cmake_force
@@ -10684,7 +10834,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathShear.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathShear.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathShear.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Imath/ImathShear.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathShear.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathShear.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Imath\ImathShear.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Imath\ImathShear.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathShear.cpp.i: cmake_force
@@ -10709,7 +10859,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathVec.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathVec.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathVec.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Imath/ImathVec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathVec.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathVec.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Imath\ImathVec.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Imath/ImathVec.cpp.i: cmake_force
@@ -10734,7 +10884,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexBaseExc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexBaseExc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexBaseExc.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Iex/IexBaseExc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexBaseExc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexBaseExc.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Iex\IexBaseExc.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Iex\IexBaseExc.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexBaseExc.cpp.i: cmake_force
@@ -10759,7 +10909,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexThrowErrnoExc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexThrowErrnoExc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexThrowErrnoExc.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexThrowErrnoExc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexThrowErrnoExc.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Iex\IexThrowErrnoExc.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Iex/IexThrowErrnoExc.cpp.i: cmake_force
@@ -10784,7 +10934,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Half/half.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Half/half.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Half/half.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/Half/half.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Half/half.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Half/half.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\Half\half.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\Half\half.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/Half/half.cpp.i: cmake_force
@@ -10809,7 +10959,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThread.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThread.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThread.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmThread/IlmThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThread.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThread.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmThread\IlmThread.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThread.cpp.i: cmake_force
@@ -10834,7 +10984,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadMutex.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadMutex.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadMutex.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadMutex.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadMutex.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmThread\IlmThreadMutex.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadMutex.cpp.i: cmake_force
@@ -10859,7 +11009,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadPool.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadPool.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadPool.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmThread/IlmThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadPool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadPool.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmThread\IlmThreadPool.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadPool.cpp.i: cmake_force
@@ -10884,7 +11034,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IlmThread\IlmThreadSemaphore.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.i: cmake_force
@@ -10909,7 +11059,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFloatExc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFloatExc.cpp.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_CXX.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFloatExc.cpp.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/OpenEXR/IexMath/IexMathFloatExc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFloatExc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building CXX object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFloatExc.cpp.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FreeImage.dir\OpenEXR\IexMath\IexMathFloatExc.cpp.obj -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\OpenEXR\IexMath\IexMathFloatExc.cpp
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/OpenEXR/IexMath/IexMathFloatExc.cpp.i: cmake_force
@@ -10934,7 +11084,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/Op
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/adler32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/adler32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/adler32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/adler32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/adler32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/adler32.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\adler32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\adler32.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/adler32.c.i: cmake_force
@@ -10959,7 +11109,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/compress.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/compress.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/compress.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/compress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/compress.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/compress.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\compress.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\compress.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/compress.c.i: cmake_force
@@ -10984,7 +11134,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/crc32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/crc32.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/crc32.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/crc32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/crc32.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\crc32.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\crc32.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/crc32.c.i: cmake_force
@@ -11009,7 +11159,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/deflate.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/deflate.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/deflate.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/deflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/deflate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/deflate.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\deflate.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\deflate.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/deflate.c.i: cmake_force
@@ -11034,7 +11184,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzclose.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzclose.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzclose.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/gzclose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzclose.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzclose.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\gzclose.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\gzclose.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzclose.c.i: cmake_force
@@ -11059,7 +11209,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzlib.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzlib.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzlib.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/gzlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzlib.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\gzlib.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\gzlib.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzlib.c.i: cmake_force
@@ -11084,7 +11234,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzread.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzread.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzread.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/gzread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzread.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\gzread.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\gzread.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzread.c.i: cmake_force
@@ -11109,7 +11259,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzwrite.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzwrite.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzwrite.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/gzwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzwrite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzwrite.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\gzwrite.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\gzwrite.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/gzwrite.c.i: cmake_force
@@ -11134,7 +11284,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/infback.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/infback.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/infback.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/infback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/infback.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/infback.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\infback.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\infback.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/infback.c.i: cmake_force
@@ -11159,7 +11309,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inffast.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inffast.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inffast.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/inffast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inffast.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inffast.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\inffast.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\inffast.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inffast.c.i: cmake_force
@@ -11184,7 +11334,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inflate.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inflate.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inflate.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/inflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inflate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inflate.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\inflate.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\inflate.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inflate.c.i: cmake_force
@@ -11209,7 +11359,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inftrees.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inftrees.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inftrees.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/inftrees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inftrees.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inftrees.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\inftrees.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\inftrees.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/inftrees.c.i: cmake_force
@@ -11234,7 +11384,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/trees.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/trees.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/trees.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/trees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/trees.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/trees.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\trees.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\trees.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/trees.c.i: cmake_force
@@ -11259,7 +11409,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/uncompr.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/uncompr.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/uncompr.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/uncompr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/uncompr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/uncompr.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\uncompr.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\uncompr.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/uncompr.c.i: cmake_force
@@ -11284,7 +11434,7 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZL
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/zutil.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/flags.make
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/zutil.c.obj: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/includes_C.rsp
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/zutil.c.obj: ../PortableGraphicsToolkit/deps/builds/FreeImage/Source/ZLib/zutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/zutil.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/zutil.c.obj"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && C:\MinGW\mingw64\mingw64\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FreeImage.dir\ZLib\zutil.c.obj   -c C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\PortableGraphicsToolkit\deps\builds\FreeImage\Source\ZLib\zutil.c
 
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/zutil.c.i: cmake_force
@@ -11559,46 +11709,52 @@ FreeImage_OBJECTS = \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_mips_dsp_r2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj" \
-"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips_dsp_r2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj" \
-"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips_dsp_r2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj" \
-"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj" \
-"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj" \
-"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj" \
-"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj" \
-"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj" \
+"CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj" \
 "CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj" \
@@ -12013,46 +12169,52 @@ Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMake
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_mips_dsp_r2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj
-Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips_dsp_r2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj
-Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips_dsp_r2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj
-Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj
-Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj
-Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj
-Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj
-Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj
+Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj
@@ -12214,7 +12376,7 @@ Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMake
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/ZLib/zutil.c.obj
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/build.make
 Debug/libFreeImage.a: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Linking CXX static library ..\..\..\..\..\Debug\libFreeImage.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Linking CXX static library ..\..\..\..\..\Debug\libFreeImage.a"
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && $(CMAKE_COMMAND) -P CMakeFiles\FreeImage.dir\cmake_clean_target.cmake
 	cd /d C:\daten_local\tech\programming\CPlusPlus\PortableGraphicsToolkit\cmake-build-debug\PortableGraphicsToolkit\deps\builds\FreeImage\Source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FreeImage.dir\link.txt --verbose=$(VERBOSE)
 
@@ -12474,46 +12636,52 @@ PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/re
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_mips_dsp_r2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/alpha_processing_sse41.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_mips_dsp_r2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/argb_sse2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost.c.obj.requires
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips_dsp_r2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cost_sse2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/cpu.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_clip_tables.c.obj.requires
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips_dsp_r2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_neon.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/dec_sse41.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_avx2.c.obj.requires
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips_dsp_r2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_neon.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/enc_sse41.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_mips_dsp_r2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/filters_sse2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless.c.obj.requires
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc.c.obj.requires
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_neon.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_enc_sse41.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_mips_dsp_r2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_neon.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/lossless_sse2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler.c.obj.requires
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips_dsp_r2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/rescaler_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_mips_dsp_r2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_neon.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/upsampling_sse2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv.c.obj.requires
-PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips_dsp_r2.c.obj.requires
+PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_mips32.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/dsp/yuv_sse2.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/alpha.c.obj.requires
 PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/requires: PortableGraphicsToolkit/deps/builds/FreeImage/Source/CMakeFiles/FreeImage.dir/LibWebP/src/enc/analysis.c.obj.requires

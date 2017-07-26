@@ -1397,6 +1397,9 @@
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibTIFF4/tif_zip.c">
 			<Option target="FreeImage"/>
 		</Unit>
+		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src">
+			<Option target="FreeImage"/>
+		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dec/alpha.c">
 			<Option target="FreeImage"/>
 		</Unit>
@@ -1437,6 +1440,9 @@
 			<Option target="FreeImage"/>
 		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/alpha_processing_sse2.c">
+			<Option target="FreeImage"/>
+		</Unit>
+		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/alpha_processing_sse41.c">
 			<Option target="FreeImage"/>
 		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/argb.c">
@@ -1481,6 +1487,9 @@
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_sse2.c">
 			<Option target="FreeImage"/>
 		</Unit>
+		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/dec_sse41.c">
+			<Option target="FreeImage"/>
+		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc.c">
 			<Option target="FreeImage"/>
 		</Unit>
@@ -1497,6 +1506,9 @@
 			<Option target="FreeImage"/>
 		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_sse2.c">
+			<Option target="FreeImage"/>
+		</Unit>
+		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/enc_sse41.c">
 			<Option target="FreeImage"/>
 		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/filters.c">
@@ -1527,6 +1539,15 @@
 			<Option target="FreeImage"/>
 		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_sse2.c">
+			<Option target="FreeImage"/>
+		</Unit>
+		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_enc_sse41.c">
+			<Option target="FreeImage"/>
+		</Unit>
+		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_mips_dsp_r2.c">
+			<Option target="FreeImage"/>
+		</Unit>
+		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_neon.c">
 			<Option target="FreeImage"/>
 		</Unit>
 		<Unit filename="C:/daten_local/tech/programming/CPlusPlus/PortableGraphicsToolkit/PortableGraphicsToolkit/deps/builds/FreeImage/Source/LibWebP/src/dsp/lossless_sse2.c">
