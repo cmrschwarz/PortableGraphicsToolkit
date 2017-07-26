@@ -38,7 +38,7 @@ SET(FI_SRCS
     FreeImage/PluginCUT.cpp
     FreeImage/PluginDDS.cpp
     FreeImage/PluginEXR.cpp
-	#FreeImage/PluginG3.cpp
+	FreeImage/PluginG3.cpp
     FreeImage/PluginGIF.cpp
     FreeImage/PluginHDR.cpp
     FreeImage/PluginICO.cpp
@@ -79,7 +79,7 @@ SET(FI_SRCS
     Metadata/IPTC.cpp
     Metadata/TagConversion.cpp
     Metadata/TagLib.cpp
-#    Metadata/XTIFF.cpp
+    Metadata/XTIFF.cpp
     FreeImageToolkit/Background.cpp
     FreeImageToolkit/BSplineRotate.cpp
     FreeImageToolkit/Channels.cpp
@@ -289,6 +289,8 @@ SET(FI_LIBWEBP_SRCS
     LibWebP/src/dsp/filters.c
     LibWebP/src/dsp/filters_mips_dsp_r2.c
     LibWebP/src/dsp/filters_sse2.c
+	LibWebP/src/dsp/lossless.c
+	LibWebP/src/dsp/lossless_sse2.c
     LibWebP/src/dsp/lossless_enc.c
     LibWebP/src/dsp/lossless_enc_mips32.c
     LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c
@@ -486,8 +488,7 @@ IF(${WIN32} AND NOT MINGW)
 	message(STATUS ${FI_PP_DEFS})
 ENDIF()
 IF(MINGW)
-	message(STATUS ${FI_PP_DEFS})
-	list(APPEND FI_PP_DEFS "_GLIBCXX_USE_C99_DYNAMIC" "FIP_EXPORTS" "FREEIMAGE_EXPORTS" )
+	list(APPEND FI_PP_DEFS "_GLIBCXX_USE_C99_DYNAMIC" "FIP_EXPORTS" "FREEIMAGE_EXPORTS" "__USE_MINGW_ANSI_STDIO")
 	message(STATUS ${FI_PP_DEFS})
 	FOREACH(pgt_flagvar
 		CMAKE_CXX_FLAGS_RELEASE
@@ -499,8 +500,10 @@ IF(MINGW)
 		CMAKE_C_FLAGS_MINSIZEREL
 		CMAKE_C_FLAGS_RELWITHDEBINFO
 		)
-		STRING(APPEND ${pgt_flagvar} "  -Wno-write-strings -Wno-narrowing -fpermissive -Wno-deprecated")
+		STRING(APPEND ${pgt_flagvar} " -Wno-write-strings -Wno-narrowing -fpermissive -Wno-deprecated")
+		MESSAGE(STATUS  "${pgt_flagvar}:  ${${pgt_flagvar}}")
 	ENDFOREACH()
+	MESSAGE(STATUS "MINGW")
 ENDIF()
 
 SET(FI_INCLUDE_DIRS

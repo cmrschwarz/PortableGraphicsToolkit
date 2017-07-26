@@ -259,31 +259,32 @@ target_compile_definitions(pgt_slim PRIVATE
 
 #build dependencies
 add_subdirectory(deps/builds)
-add_dependencies(pgt_slim glew_s freetype freetype-gl SDL2main SDL2-static FreeImage)
+add_dependencies(pgt_slim glew_s freetype freetype-gl SDL2main SDL2 FreeImage) # SDL2-static
 
 #Searching for Libs that we depend on
 
 	set (PGT_LIB_LIST
-		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype-gl"
-		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2"
-		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2main"
-		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype$<$<CONFIG:Debug>:d>"
-		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}FreeImage"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype-gl${PGT_LIB_EXT}"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2main${PGT_LIB_EXT}"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2${PGT_LIB_EXT}"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}FreeImage${PGT_LIB_EXT}"
 	)
-SET(PGT_LIB_COMMAND "")
-IF(MSVC)
-	list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>")
-	FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
-		SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} \"${PGT_LIB_NAMES_ITER}${PGT_LIB_EXT}\"")
-	ENDFOREACH(PGT_LIB_NAMES_ITER)
-ELSE()
-	list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/libglew32$<$<CONFIG:Debug>:d>")
-	FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
-		SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} ADDLIB \"${PGT_LIB_NAMES_ITER}${PGT_LIB_EXT}\"  ")
-	ENDFOREACH(PGT_LIB_NAMES_ITER)
-ENDIF()
+	target_link_libraries(pgt_slim "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2.dll")
 
-MESSAGE(STATUS ${PGT_LIB_COMMAND})
+	SET(PGT_LIB_COMMAND "")
+	IF(MSVC)
+		list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}")
+		FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
+			SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} \"${PGT_LIB_NAMES_ITER}\"")
+		ENDFOREACH(PGT_LIB_NAMES_ITER)
+	ELSE()
+		list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/libglew32$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}")
+		FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
+			SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} ADDLIB \"${PGT_LIB_NAMES_ITER}\"")
+		ENDFOREACH(PGT_LIB_NAMES_ITER)
+	ENDIF()
+	MESSAGE(STATUS ${PGT_LIB_COMMAND})
 
 #searching for opengl
 	INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
@@ -291,7 +292,7 @@ MESSAGE(STATUS ${PGT_LIB_COMMAND})
 	    message(ERROR " OPENGL not found!")
 	endif(NOT OPENGL_FOUND)
 	message(STATUS "OPENGL PATH:  ${OPENGL_gl_LIBRARY}")
-	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND}\"${OPENGL_gl_LIBRARY}${PGT_LIB_EXT}\"  ")
+	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} \"${OPENGL_gl_LIBRARY}${PGT_LIB_EXT}\"  ")
 
 #Combine Lib with Dependencies through external Command
 IF(MSVC)
@@ -303,7 +304,7 @@ IF(MSVC)
 ELSEIF(MINGW)
 	add_custom_command(
 		TARGET pgt_slim POST_BUILD
-		DEPENDS pgt_slim
+		DEPENDS pgt_slim glew_s freetype freetype-gl SDL2main SDL2 FreeImage
 		COMMAND "${CMAKE_CURRENT_SOURCE_DIR}/deps/builds/linux_combine_libs.sh" "${PGT_BUILD_DIR}" "C:/MinGW/mingw64/mingw64/x86_64-w64-mingw32/lib" "$<$<CONFIG:Debug>:d>"
 	)
 ENDIF()

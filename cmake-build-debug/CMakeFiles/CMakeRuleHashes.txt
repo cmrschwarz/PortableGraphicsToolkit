@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+1136640bd084435f0bac866395247c23 PortableGraphicsToolkit/deps/builds/SDL-mirror-master/CMakeFiles/uninstall
+5f37953d34ce8a85908d48b2e518921e PortableGraphicsToolkit/deps/builds/freetype-2.8/CMakeFiles/dist
