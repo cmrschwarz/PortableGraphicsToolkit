@@ -240,7 +240,8 @@ set(PGT_SOURCE_FILES
 	src/pgt/utils/Randomizer.cpp
 	src/pgt/utils/Stopwatch.cpp
 	src/pgt/utils/string/string_utils.cpp
-	src/pgt/utils/std_types.h)
+	src/pgt/utils/std_types.h
+)
 
 
 #Create the Lib without Dependencies
@@ -269,44 +270,64 @@ target_compile_definitions(pgt_slim PRIVATE
 	ENDIF()
 
 #Adding Libs that we depend on
-	set (PGT_LIB_LIST
+	SET(PGT_LIB_LIST
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype-gl${PGT_LIB_EXT}"
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2main${PGT_LIB_EXT}"
-		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2${PGT_LIB_EXT}"
-		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}"
+		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype${PGT_D_EXT}${PGT_LIB_EXT}"
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}FreeImage${PGT_LIB_EXT}"
-		"${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}"
-
-		"${PGT_LIB_PREFIX}winmm${PGT_LIB_EXT}"
-		"${PGT_LIB_PREFIX}imm32${PGT_LIB_EXT}"
- 		"${PGT_LIB_PREFIX}version${PGT_LIB_EXT}"
-
-#		"${PGT_LIB_PREFIX}uuid${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}imagehlp${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}dinput8${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}dxguid${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}dxerr8${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}user32${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}gdi32${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}ole32${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}oleaut32${PGT_LIB_EXT}"
-#		"${PGT_LIB_PREFIX}shell32"
+		"${CMAKE_BINARY_DIR}/lib${PGT_CONFIG_SUBDIR}/libglew32${PGT_D_EXT}${PGT_LIB_EXT}"
+        "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}pgt_slim${PGT_LIB_EXT}"
 	)
+    IF(MINGW)
+        list(APPEND PGT_LIB_LIST "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2.dll${PGT_LIB_EXT}")
+    ELSE()
+        list(APPEND PGT_LIB_LIST "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2{PGT_LIB_EXT}")
+    ENDIF()
+#Adding System Libs
+    SET(PGT_SYSTEM_LIBS
+    		"${PGT_LIB_PREFIX}winmm${PGT_LIB_EXT}"
+    		"${PGT_LIB_PREFIX}imm32${PGT_LIB_EXT}"
+    		"${PGT_LIB_PREFIX}version${PGT_LIB_EXT}"
+            "${PGT_LIB_PREFIX}opengl32${PGT_LIB_EXT}"
+            "${PGT_LIB_PREFIX}ws2_32${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}uuid${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}imagehlp${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}dinput8${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}dxguid${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}dxerr8${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}user32${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}gdi32${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}ole32${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}oleaut32${PGT_LIB_EXT}"
+    #		"${PGT_LIB_PREFIX}shell32"
+    )
+    FOREACH(PGT_LIB_NAMES_ITER ${PGT_SYSTEM_LIBS})
+        find_library(PGT_TEMP_LIB_PATH ${PGT_LIB_NAMES_ITER})
+        list(APPEND PGT_LIB_LIST ${PGT_TEMP_LIB_PATH})
+        UNSET(PGT_TEMP_LIB_PATH CACHE)
+    ENDFOREACH(PGT_LIB_NAMES_ITER)
 	#searching for opengl
-		INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
-		if(NOT OPENGL_FOUND)
-		    message(ERROR " OPENGL not found!")
-		endif(NOT OPENGL_FOUND)
-		message(STATUS "OPENGL PATH:  ${OPENGL_gl_LIBRARY}")
-		list(APPEND PGT_LIB_LIST ${OPENGL_gl_LIBRARY}${PGT_LIB_EXT})
+            IF(FALSE)
+                INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
+                if(NOT OPENGL_FOUND)
+                    message(ERROR " OPENGL not found!")
+                endif(NOT OPENGL_FOUND)
+                message(STATUS "OPENGL PATH:  ${OPENGL_gl_LIBRARY}")
+                list(APPEND PGT_LIB_LIST ${OPENGL_gl_LIBRARY}${PGT_LIB_EXT})
+            ENDIF()
 
 #Create combine lib command from deps
 	SET(PGT_LIB_COMMAND "")
+	MESSAGE(STATUS "LIBS:")
 	IF(MSVC)
-		MESSAGE(STATUS "LIBS:")
 		FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
 			MESSAGE(STATUS "    ${PGT_LIB_NAMES_ITER}")
 			SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} \"${PGT_LIB_NAMES_ITER}\"")
+		ENDFOREACH(PGT_LIB_NAMES_ITER)
+	ELSEIF(MINGW)
+		FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
+			MESSAGE(STATUS "    ${PGT_LIB_NAMES_ITER}")
+			SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} & echo ADDLIB ${PGT_LIB_NAMES_ITER}")
 		ENDFOREACH(PGT_LIB_NAMES_ITER)
 	ENDIF()
 
@@ -315,13 +336,17 @@ IF(MSVC)
 	add_custom_command(
 		TARGET pgt_slim POST_BUILD
 		DEPENDS pgt_slim
-		COMMAND lib.exe /OUT:${PGT_BUILD_DIR}/pgt.lib ${PGT_BUILD_DIR}/pgt_slim.lib ${PGT_LIB_COMMAND}
+		COMMAND lib.exe /OUT:${PGT_BUILD_DIR}/pgt.lib ${PGT_LIB_COMMAND}
 	)
 ELSEIF(MINGW)
+    SET(CMD_TO_EXEC "(echo CREATE ${PGT_BUILD_DIR}/libpgt.a ${PGT_LIB_COMMAND} & echo SAVE & echo END) | ar -M")
+    MESSAGE(STATUS ${CMD_TO_EXEC})
 	add_custom_command(
 		TARGET pgt_slim POST_BUILD
-		DEPENDS pgt_slim glew_s freetype freetype-gl SDL2main SDL2 FreeImage
-		COMMAND "${CMAKE_CURRENT_SOURCE_DIR}/deps/builds/linux_combine_libs.sh" "${PGT_BUILD_DIR}" "C:/MinGW/mingw64/mingw64/x86_64-w64-mingw32/lib" "$<$<CONFIG:Debug>:d>"
+		DEPENDS pgt_slim
+#the garbage with the wrapping cmd.exe is needed because of add_custom_command's STUPID quote policy
+        COMMAND cmd.exe /S /C ${CMD_TO_EXEC}
+		COMMAND ranlib ${PGT_BUILD_DIR}/libpgt.a
 	)
 ENDIF()
 
