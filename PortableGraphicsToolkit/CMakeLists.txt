@@ -281,7 +281,7 @@ target_compile_definitions(pgt_slim PRIVATE
     IF(MINGW)
         list(APPEND PGT_LIB_LIST "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2.dll${PGT_LIB_EXT}")
     ELSE()
-        list(APPEND PGT_LIB_LIST "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2{PGT_LIB_EXT}")
+        list(APPEND PGT_LIB_LIST "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2${PGT_LIB_EXT}")
     ENDIF()
 #Adding System Libs
     SET(PGT_SYSTEM_LIBS
@@ -301,11 +301,17 @@ target_compile_definitions(pgt_slim PRIVATE
     #		"${PGT_LIB_PREFIX}oleaut32${PGT_LIB_EXT}"
     #		"${PGT_LIB_PREFIX}shell32"
     )
+IF(WIN32 AND NOT MINGW)
+    FOREACH(PGT_LIB_NAMES_ITER ${PGT_SYSTEM_LIBS})
+        list(APPEND PGT_LIB_LIST ${PGT_LIB_NAMES_ITER})
+    ENDFOREACH(PGT_LIB_NAMES_ITER)
+ELSE()
     FOREACH(PGT_LIB_NAMES_ITER ${PGT_SYSTEM_LIBS})
         find_library(PGT_TEMP_LIB_PATH ${PGT_LIB_NAMES_ITER})
         list(APPEND PGT_LIB_LIST ${PGT_TEMP_LIB_PATH})
         UNSET(PGT_TEMP_LIB_PATH CACHE)
     ENDFOREACH(PGT_LIB_NAMES_ITER)
+ENDIF()
 	#searching for opengl
             IF(FALSE)
                 INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
