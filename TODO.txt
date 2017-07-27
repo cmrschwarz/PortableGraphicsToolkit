@@ -1,4 +1,3 @@
--merge changes from linux build attempt
 -make mingw build path dynamic
 -improve mingw command system
 -create linux build

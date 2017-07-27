@@ -38,7 +38,7 @@ SET(FI_SRCS
     FreeImage/PluginCUT.cpp
     FreeImage/PluginDDS.cpp
     FreeImage/PluginEXR.cpp
-	FreeImage/PluginG3.cpp
+    FreeImage/PluginG3.cpp
     FreeImage/PluginGIF.cpp
     FreeImage/PluginHDR.cpp
     FreeImage/PluginICO.cpp
@@ -263,57 +263,57 @@ SET(FI_LIBWEBP_SRCS
     LibWebP/src/dec/vp8l.c
     LibWebP/src/dec/webp.c
     LibWebP/src/demux/demux.c
-	LibWebP/src/dsp/alpha_processing.c
-	LibWebP/src/dsp/alpha_processing_mips_dsp_r2.c
-	LibWebP/src/dsp/alpha_processing_sse2.c
-	LibWebP/src/dsp/alpha_processing_sse41.c
-	LibWebP/src/dsp/argb.c
-	LibWebP/src/dsp/argb_mips_dsp_r2.c
-	LibWebP/src/dsp/argb_sse2.c
-	LibWebP/src/dsp/cost.c
-	LibWebP/src/dsp/cost_mips_dsp_r2.c
-	LibWebP/src/dsp/cost_mips32.c
-	LibWebP/src/dsp/cost_sse2.c
-	LibWebP/src/dsp/cpu.c
-	LibWebP/src/dsp/dec.c
-	LibWebP/src/dsp/dec_clip_tables.c
-	LibWebP/src/dsp/dec_mips_dsp_r2.c
-	LibWebP/src/dsp/dec_mips32.c
-	LibWebP/src/dsp/dec_neon.c
-	LibWebP/src/dsp/dec_sse2.c
-	LibWebP/src/dsp/dec_sse41.c
-	LibWebP/src/dsp/enc.c
-	LibWebP/src/dsp/enc_avx2.c
-	LibWebP/src/dsp/enc_mips_dsp_r2.c
-	LibWebP/src/dsp/enc_mips32.c
-	LibWebP/src/dsp/enc_neon.c
-	LibWebP/src/dsp/enc_sse2.c
-	LibWebP/src/dsp/enc_sse41.c
-	LibWebP/src/dsp/filters.c
-	LibWebP/src/dsp/filters_mips_dsp_r2.c
-	LibWebP/src/dsp/filters_sse2.c
-	LibWebP/src/dsp/lossless.c
-	LibWebP/src/dsp/lossless_enc.c
-	LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c
-	LibWebP/src/dsp/lossless_enc_mips32.c
-	LibWebP/src/dsp/lossless_enc_neon.c
-	LibWebP/src/dsp/lossless_enc_sse2.c
-	LibWebP/src/dsp/lossless_enc_sse41.c
-	LibWebP/src/dsp/lossless_mips_dsp_r2.c
-	LibWebP/src/dsp/lossless_neon.c
-	LibWebP/src/dsp/lossless_sse2.c
-	LibWebP/src/dsp/rescaler.c
-	LibWebP/src/dsp/rescaler_mips_dsp_r2.c
-	LibWebP/src/dsp/rescaler_mips32.c
-	LibWebP/src/dsp/upsampling.c
-	LibWebP/src/dsp/upsampling_mips_dsp_r2.c
-	LibWebP/src/dsp/upsampling_neon.c
-	LibWebP/src/dsp/upsampling_sse2.c
-	LibWebP/src/dsp/yuv.c
-	LibWebP/src/dsp/yuv_mips_dsp_r2.c
-	LibWebP/src/dsp/yuv_mips32.c
-	LibWebP/src/dsp/yuv_sse2.c
-	LibWebP/src/dsp/
+    LibWebP/src/dsp/alpha_processing.c
+    LibWebP/src/dsp/alpha_processing_mips_dsp_r2.c
+    LibWebP/src/dsp/alpha_processing_sse2.c
+    LibWebP/src/dsp/alpha_processing_sse41.c
+    LibWebP/src/dsp/argb.c
+    LibWebP/src/dsp/argb_mips_dsp_r2.c
+    LibWebP/src/dsp/argb_sse2.c
+    LibWebP/src/dsp/cost.c
+    LibWebP/src/dsp/cost_mips_dsp_r2.c
+    LibWebP/src/dsp/cost_mips32.c
+    LibWebP/src/dsp/cost_sse2.c
+    LibWebP/src/dsp/cpu.c
+    LibWebP/src/dsp/dec.c
+    LibWebP/src/dsp/dec_clip_tables.c
+    LibWebP/src/dsp/dec_mips_dsp_r2.c
+    LibWebP/src/dsp/dec_mips32.c
+    LibWebP/src/dsp/dec_neon.c
+    LibWebP/src/dsp/dec_sse2.c
+    LibWebP/src/dsp/dec_sse41.c
+    LibWebP/src/dsp/enc.c
+    LibWebP/src/dsp/enc_avx2.c
+    LibWebP/src/dsp/enc_mips_dsp_r2.c
+    LibWebP/src/dsp/enc_mips32.c
+    LibWebP/src/dsp/enc_neon.c
+    LibWebP/src/dsp/enc_sse2.c
+    LibWebP/src/dsp/enc_sse41.c
+    LibWebP/src/dsp/filters.c
+    LibWebP/src/dsp/filters_mips_dsp_r2.c
+    LibWebP/src/dsp/filters_sse2.c
+    LibWebP/src/dsp/lossless.c
+    LibWebP/src/dsp/lossless_enc.c
+    LibWebP/src/dsp/lossless_enc_mips_dsp_r2.c
+    LibWebP/src/dsp/lossless_enc_mips32.c
+    LibWebP/src/dsp/lossless_enc_neon.c
+    LibWebP/src/dsp/lossless_enc_sse2.c
+    LibWebP/src/dsp/lossless_enc_sse41.c
+    LibWebP/src/dsp/lossless_mips_dsp_r2.c
+    LibWebP/src/dsp/lossless_neon.c
+    LibWebP/src/dsp/lossless_sse2.c
+    LibWebP/src/dsp/rescaler.c
+    LibWebP/src/dsp/rescaler_mips_dsp_r2.c
+    LibWebP/src/dsp/rescaler_mips32.c
+    LibWebP/src/dsp/upsampling.c
+    LibWebP/src/dsp/upsampling_mips_dsp_r2.c
+    LibWebP/src/dsp/upsampling_neon.c
+    LibWebP/src/dsp/upsampling_sse2.c
+    LibWebP/src/dsp/yuv.c
+    LibWebP/src/dsp/yuv_mips_dsp_r2.c
+    LibWebP/src/dsp/yuv_mips32.c
+    LibWebP/src/dsp/yuv_sse2.c
+    LibWebP/src/dsp/
     LibWebP/src/enc/alpha.c
     LibWebP/src/enc/analysis.c
     LibWebP/src/enc/backward_references.c
@@ -486,45 +486,53 @@ SET(FI_PP_DEFS
     _CRT_SECURE_NO_DEPRECATE
     LIBRAW_NODLL
     DISABLE_PERF_MEASUREMENT
-	FREEIMAGE_LIBRARY_TYPE=STATIC
+    FREEIMAGE_LIBRARY_TYPE=STATIC
 )
 
+IF(WIN32 AND NOT MINGW)
+    message(STATUS ${FI_PP_DEFS})
+    list(APPEND FI_PP_DEFS "WIN32")
+    message(STATUS ${FI_PP_DEFS})
+ENDIF()
 IF(MINGW)
-	list(APPEND FI_PP_DEFS "_GLIBCXX_USE_C99_DYNAMIC" "FIP_EXPORTS" "FREEIMAGE_EXPORTS" "__USE_MINGW_ANSI_STDIO")
-	message(STATUS ${FI_PP_DEFS})
-	FOREACH(pgt_flagvar
-		CMAKE_CXX_FLAGS_RELEASE
-		CMAKE_CXX_FLAGS_DEBUG
-		CMAKE_CXX_FLAGS_MINSIZEREL
-		CMAKE_CXX_FLAGS_RELWITHDEBINFO
-		CMAKE_C_FLAGS_RELEASE
-		CMAKE_C_FLAGS_DEBUG
-		CMAKE_C_FLAGS_MINSIZEREL
-		CMAKE_C_FLAGS_RELWITHDEBINFO
-		)
-		STRING(APPEND ${pgt_flagvar} " -Wno-write-strings -Wno-narrowing -fpermissive -Wno-deprecated")
-		MESSAGE(STATUS  "${pgt_flagvar}:  ${${pgt_flagvar}}")
-	ENDFOREACH()
-	MESSAGE(STATUS "MINGW")
+    list(APPEND FI_PP_DEFS "_GLIBCXX_USE_C99_DYNAMIC" "FIP_EXPORTS" "FREEIMAGE_EXPORTS" "__USE_MINGW_ANSI_STDIO")
+    message(STATUS ${FI_PP_DEFS})
+    FOREACH(pgt_flagvar
+        CMAKE_CXX_FLAGS_RELEASE
+        CMAKE_CXX_FLAGS_DEBUG
+        CMAKE_CXX_FLAGS_MINSIZEREL
+        CMAKE_CXX_FLAGS_RELWITHDEBINFO
+        CMAKE_C_FLAGS_RELEASE
+        CMAKE_C_FLAGS_DEBUG
+        CMAKE_C_FLAGS_MINSIZEREL
+        CMAKE_C_FLAGS_RELWITHDEBINFO
+        )
+        STRING(APPEND ${pgt_flagvar} " -Wno-write-strings -Wno-narrowing -fpermissive -Wno-deprecated")
+        MESSAGE(STATUS  "${pgt_flagvar}:  ${${pgt_flagvar}}")
+    ENDFOREACH()
+    MESSAGE(STATUS "MINGW")
 ENDIF()
 
 SET(FI_INCLUDE_DIRS
-	./
-	ZLib
-	DeprecationManager
-	OpenEXR/
-	OpenEXR/IlmImf
-	OpenEXR/Imath
-	OpenEXR/IexMath
-	OpenEXR/Iex
-	OpenEXR/Half
-	OpenEXR/IlmThread
-	OpenEXR/ZLib
-	LibJXR/jxrgluelib
-	LibJXR/image/sys
-	LibJXR/common/include
-	LibRawLite
+    ./
+    ZLib
+    DeprecationManager
+    OpenEXR/
+    OpenEXR/IlmImf
+    OpenEXR/Imath
+    OpenEXR/IexMath
+    OpenEXR/Iex
+    OpenEXR/Half
+    OpenEXR/IlmThread
+    OpenEXR/ZLib
+    LibJXR/jxrgluelib
+    LibJXR/image/sys
+    LibJXR/common/include
+    LibRawLite
 )
+IF(NOT WIN32)
+    list(APPEND FI_INCLUDE_DIRS "LibJXR/common/include/not_for_win")
+ENDIF()
 add_library(FreeImage 
     ${FI_SRCS}
     ${FI_LIBJPEG_SRCS}

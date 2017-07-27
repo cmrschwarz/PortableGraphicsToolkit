@@ -5,7 +5,7 @@ Steps for Installing a new Version of FreeImage:
 	4. Update the SourceFiles [painful, ikr]
 	5. Check all Libraries for new added Preprocessor statements 
 	6. Surround all references of #define snprintf with #if _MSC_VER < 1900   ...    #endif
-	7. rename file ./FreeImage/Source/LibJXR/common/include/guiddef.h to something uncommon so its not being used
+	7. move file ./FreeImage/Source/LibJXR/common/include/guiddef.h to ./FreeImage/Source/LibJXR/common/include/not_for_win/guiddef.h
 	8. Change line ~667 in file ./FreeImage/Source/LibJXR/image/sys/strcodec.c from
 		#if (defined(WIN32) && !defined(UNDER_CE) && (!defined(__MINGW32__) || defined(__MINGW64_TOOLCHAIN__))) || (defined(UNDER_CE) && defined(_ARM_))
 	to
