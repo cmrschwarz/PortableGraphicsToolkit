@@ -257,42 +257,58 @@ target_compile_definitions(pgt_slim PRIVATE
 	NOT_USING_FT_GL_NAMESPACE
 )
 
-#build dependencies
-add_subdirectory(deps/builds)
-add_dependencies(pgt_slim glew_s freetype freetype-gl SDL2main SDL2 FreeImage) # SDL2-static
+#build dependencies and depend on them
+	add_subdirectory(deps/builds)
+	IF(PGT_STATIC)
+		add_dependencies(pgt_slim glew_s freetype freetype-gl SDL2main SDL2-static FreeImage) 
+	ELSE()
+		add_dependencies(pgt_slim glew_s freetype freetype-gl SDL2main SDL2 FreeImage)
+	ENDIF()
+	IF(NOT PGT_STATIC)
+		target_link_libraries(pgt_slim "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2${PGT_DLL_EXT}")
+	ENDIF()
 
-#Searching for Libs that we depend on
-
+#Adding Libs that we depend on
 	set (PGT_LIB_LIST
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype-gl${PGT_LIB_EXT}"
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2main${PGT_LIB_EXT}"
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2${PGT_LIB_EXT}"
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}freetype$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}"
 		"${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}FreeImage${PGT_LIB_EXT}"
-	)
-	target_link_libraries(pgt_slim "${PGT_BUILD_DIR}/${PGT_LIB_PREFIX}SDL2.dll")
+		"${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}"
 
+		"${PGT_LIB_PREFIX}winmm${PGT_LIB_EXT}"
+		"${PGT_LIB_PREFIX}imm32${PGT_LIB_EXT}"
+ 		"${PGT_LIB_PREFIX}version${PGT_LIB_EXT}"
+
+#		"${PGT_LIB_PREFIX}uuid${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}imagehlp${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}dinput8${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}dxguid${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}dxerr8${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}user32${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}gdi32${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}ole32${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}oleaut32${PGT_LIB_EXT}"
+#		"${PGT_LIB_PREFIX}shell32"
+	)
+	#searching for opengl
+		INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
+		if(NOT OPENGL_FOUND)
+		    message(ERROR " OPENGL not found!")
+		endif(NOT OPENGL_FOUND)
+		message(STATUS "OPENGL PATH:  ${OPENGL_gl_LIBRARY}")
+		list(APPEND PGT_LIB_LIST ${OPENGL_gl_LIBRARY}${PGT_LIB_EXT})
+
+#Create combine lib command from deps
 	SET(PGT_LIB_COMMAND "")
 	IF(MSVC)
-		list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/$<CONFIG>/libglew32$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}")
+		MESSAGE(STATUS "LIBS:")
 		FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
+			MESSAGE(STATUS "    ${PGT_LIB_NAMES_ITER}")
 			SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} \"${PGT_LIB_NAMES_ITER}\"")
 		ENDFOREACH(PGT_LIB_NAMES_ITER)
-	ELSE()
-		list(APPEND PGT_LIB_LIST "${CMAKE_BINARY_DIR}/lib/libglew32$<$<CONFIG:Debug>:d>${PGT_LIB_EXT}")
-		FOREACH(PGT_LIB_NAMES_ITER ${PGT_LIB_LIST})
-			SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} ADDLIB \"${PGT_LIB_NAMES_ITER}\"")
-		ENDFOREACH(PGT_LIB_NAMES_ITER)
 	ENDIF()
-	MESSAGE(STATUS ${PGT_LIB_COMMAND})
-
-#searching for opengl
-	INCLUDE(${CMAKE_ROOT}/Modules/FindOpenGL.cmake)
-	if(NOT OPENGL_FOUND)
-	    message(ERROR " OPENGL not found!")
-	endif(NOT OPENGL_FOUND)
-	message(STATUS "OPENGL PATH:  ${OPENGL_gl_LIBRARY}")
-	SET(PGT_LIB_COMMAND "${PGT_LIB_COMMAND} \"${OPENGL_gl_LIBRARY}${PGT_LIB_EXT}\"  ")
 
 #Combine Lib with Dependencies through external Command
 IF(MSVC)

@@ -1,11 +1,17 @@
 #Deduce System
 
 IF(MSVC)
-	SET(PGT_LIB_EXT ".lib" )
 	SET(PGT_LIB_PREFIX "")
-ELSE()
-	SET(PGT_LIB_EXT ".a" )
+	SET(PGT_LIB_EXT ".lib" )
+	SET(PGT_DLL_EXT ".dll" )
+ELSEIF(MINGW)
 	SET(PGT_LIB_PREFIX "lib")
+	SET(PGT_LIB_EXT ".a" )
+	SET(PGT_DLL_EXT ".dll" )
+ELSE()
+	SET(PGT_LIB_PREFIX "lib")
+	SET(PGT_LIB_EXT ".a" )
+	SET(PGT_DLL_EXT ".so" )
 ENDIF()
 
 #Give Build Options
